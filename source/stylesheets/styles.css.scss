@@ -171,10 +171,13 @@ body {
 .logo {
   h1 {
     font-family: Oxygen, cursive;
+    @media #{$small-and-down} {
+    font-size: 3.5em;
+  }
   }
   a:hover {
     color: $maintext;
-  }
+  }  
 }
 
 .headinfo {
@@ -302,4 +305,16 @@ footer{
 
 .blog article img {
   max-width: 100%;
+}
+
+.leftcol {
+  @media #{$medium-and-up} {
+    padding-right: 2em;
+  }
+}
+
+.rightcol {
+  @media #{$medium-and-up} {
+    padding-left: 2em;
+  }
 }
