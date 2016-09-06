@@ -6259,6 +6259,9 @@ body {
 
 .logo h1 {
   font-family: Oxygen, cursive; }
+  @media only screen and (max-width: 600px) {
+    .logo h1 {
+      font-size: 3.5em; } }
 .logo a:hover {
   color: #000078; }
 
@@ -6360,3 +6363,11 @@ footer {
 
 .blog article img {
   max-width: 100%; }
+
+@media only screen and (min-width: 601px) {
+  .leftcol {
+    padding-right: 2em; } }
+
+@media only screen and (min-width: 601px) {
+  .rightcol {
+    padding-left: 2em; } }
