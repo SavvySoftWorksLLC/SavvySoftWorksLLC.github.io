@@ -1,0 +1,57 @@
+<% if false %>
+<div class="row col s12 slide_container"> <!-- commented out 'has-shadow' from class -->
+  <ul class="rslides">
+    <li>
+      <a href="#about">
+        <img src="images/yoda_welcome.png" alt="">
+        <p class="caption">Welcome Message From our Chief Security Officer</p>
+      </a>
+    </li>
+    <li>
+      <a href="#current_clients">
+        <img src="images/current.png" alt="">
+        <p class="caption">Current Clients</p>
+      </a>
+    </li>
+    <li>
+      <a href="#products">
+        <img src="images/savvymailer.png" alt="" width="532" height="400px">
+        <p class="caption">Products</p>
+      </a>
+    </li>
+    <li>
+      <a href="#contact">
+        <img src="images/white.png" alt="">
+        <p class="caption">Contact Us</p>
+      </a>
+    </li>
+  </ul>
+</div>
+<% end %>
+
+<%= partial "parallax", locals: {image_name: 'web__SavvySoftWorks_Parallax-2.jpg'} %>
+<div class="has-shadow row col s12">
+  <%= partial "about" %>
+</div>
+<%= partial "parallax", locals: {image_name: 'web__SavvySoftWorks_Parallax-5.jpg'} %>
+<div class="has-shadow row col s12">
+  <%= partial "blog" %>
+</div>
+<%= partial "parallax", locals: {image_name: 'web__MilkyWay_paralax-1.jpg'} %>
+<div class="has-shadow row col s12">
+  <%= partial "current_clients" %>
+</div>
+<%= partial "parallax", locals: {image_name: 'web__SavvySoftWorks_Parallax-4.jpg'} %>
+<div class="has-shadow row col s12">
+  <%= partial "products" %>
+</div>
+<%= partial "parallax", locals: {image_name: 'web__SavvySoftWorks_Parallax-1.jpg'} %>
+<div class="has-shadow row col s12">
+  <%= partial "team" %>
+</div>
+<%= partial "parallax", locals: {image_name: 'web__SavvySoftWorks_Parallax-3.jpg'} %>
+<div class="has-shadow row col s12">
+  <%= partial "contact" %>
+</div>
+
+<%= partial "parallax", locals: {image_name: 'web__GbgTrainStation-20160309-8.jpg'} %>

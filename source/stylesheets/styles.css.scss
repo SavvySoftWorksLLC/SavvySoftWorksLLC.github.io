@@ -1,0 +1,305 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
+@import 'https://fonts.googleapis.com/css?family=Quicksand';
+
+// Mixins
+// @import "components/prefixer";
+@import "materialize/components/mixins";
+@import "materialize/components/color";
+
+// Variables;
+@import "materialize/components/variables";
+
+// Reset
+@import "materialize/components/normalize";
+
+// components
+@import "materialize/components/global";
+@import "materialize/components/icons-material-design";
+@import "materialize/components/grid";
+@import "materialize/components/navbar";
+@import "materialize/components/roboto";
+@import "materialize/components/typography";
+@import "materialize/components/cards";
+@import "materialize/components/toast";
+@import "materialize/components/tabs";
+@import "materialize/components/tooltip";
+@import "materialize/components/buttons";
+@import "materialize/components/dropdown";
+@import "materialize/components/waves";
+@import "materialize/components/modal";
+@import "materialize/components/collapsible";
+@import "materialize/components/chips";
+@import "materialize/components/materialbox";
+@import "materialize/components/forms/forms";
+@import "materialize/components/table_of_contents";
+@import "materialize/components/sideNav";
+@import "materialize/components/preloader";
+@import "materialize/components/slider";
+@import "materialize/components/carousel";
+@import "materialize/components/date_picker/default";
+@import "materialize/components/date_picker/default.date";
+@import "materialize/components/date_picker/default.time";
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/material-design-icons/iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('../assets/material-design-icons/iconfont/MaterialIcons-Regular'),
+       url(../assets/material-design-icons/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+       url(../assets/material-design-icons/iconfont/MaterialIcons-Regular.woff) format('woff'),
+       url(../assets/material-design-icons/iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+
+  &.md-18{font-size: 18px;}
+  &.md-24{font-size: 24px;}
+  &.md-36{font-size: 36px;}
+  &.md-48{font-size: 48px;}
+}
+
+$body: #F5F5F5;
+$maintext: #000078;
+$footer: #FFFFFF;
+$a: #000078;
+$ahover: #00AAAA;
+
+.has-shadow {
+  box-shadow: 0px 9px 7px 0px rgba(50, 50, 50, 0.6);
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.section-title {
+  font-family: 'Oxygen', cursive;
+}
+
+.parallax-container {
+  box-shadow: inset 0px -9px 7px 0px rgba(50, 50, 50, 0.6);
+}
+
+.nav-wrapper {
+  box-shadow: 0px 9px 7px 0px rgba(50, 50, 50, 0.6);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.material-icons.md-18 {
+  font-size: 18px; }
+.material-icons.md-24 {
+  font-size: 24px; }
+.material-icons.md-36 {
+  font-size: 36px; }
+.material-icons.md-48 {
+  font-size: 48px; }
+
+.current_clients {
+  .collapsible-header {
+    font-weight: 700;
+  }
+  h5 {
+    padding-top: 1em;
+    padding-left: 1em;
+    margin: 0;
+    color: $body;
+  }
+}
+
+.collapsible-body {
+  h6 {
+    padding-left: 2em;
+    font-size: 1.1em;
+  }
+  p {
+    padding-left: 3em;
+    padding-top: 0;
+    padding-bottom: 1em;
+  }
+  a {
+    color: $body;
+  }
+
+  font-size: 1.1em;
+  background-color: $maintext;
+  color: darken($body, 5%);
+  font-weight: 300;
+  font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
+}
+
+
+img{
+  margin-top: 4px;
+}
+
+body {
+  background-color: $body;
+  color: $maintext;
+}
+
+.logo {
+  h1 {
+    font-family: Oxygen, cursive;
+  }
+  a:hover {
+    color: $maintext;
+  }
+}
+
+.headinfo {
+  h6 {
+    line-height: 1.5em;
+    font-size: 1.1em;
+    text-align: right;
+  }
+
+}
+
+.container {
+  font-family: Oxygen, Ubuntu, "Trebuchet MS", Helvetica, sans-serif;
+  padding: 8px;
+  width: 80%;
+}
+
+.slide_container {
+  font-family: Oxygen, Ubuntu, "Trebuchet MS", Helvetica, sans-serif;
+  padding: 8px;
+  width: 100%;
+}
+
+.parallax-container {
+  height: 400px;
+}
+
+.header{
+  padding-top: 8px;
+}
+
+.contact{
+  color: $maintext;
+}
+
+.products.container {
+  a {
+    overflow-wrap: break-word;
+  }
+}
+
+.nav-wrapper{
+  background-color: $maintext;
+  padding: 0px;
+}
+
+a{
+  color: $a;
+}
+
+a:hover{
+  color: $ahover;
+}
+
+footer{
+  text-align: center;
+}
+
+.returntotop {
+    position: fixed;
+    background-color: $maintext;
+    //width: 100%;
+}
+
+.returntotop:hover{
+  color: #FFFFFF;
+  background-color: $ahover;
+}
+
+.submit{
+  background-color: $maintext;
+}
+
+.rslides_tabs {
+  list-style: none;
+  padding: 0;
+  background: $maintext;
+  font-size: 18px;
+  list-style: none;
+  margin: 0 auto 50px;
+  max-width: 540px;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
+.rslides_tabs li {
+  display: inline;
+  float: none;
+  margin-right: 1px;
+  }
+
+.rslides_tabs a {
+  color: $body;
+  width: auto;
+  line-height: 20px;
+  padding: 9px 20px;
+  height: auto;
+  background: transparent;
+  display: inline;
+  }
+
+.rslides_tabs li:first-child {
+  margin-left: 0;
+  }
+
+.rslides_tabs .rslides_here a {
+  background: darken($body, 5%);
+  color: $maintext;
+  font-weight: bold;
+  }
+
+.caption {
+  color: $maintext;
+  font-size: 2em;
+  text-align: center;
+}
+
+.slide_container {
+  width: 80%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.blog article img {
+  max-width: 100%;
+}
