@@ -11,6 +11,12 @@ $(document).ready(function(){
 //    interval: 2500
 //  });
 
+
+  var contactForm = document.querySelector('#contact form')
+  contactForm.addEventListener('saved', function(e){
+    contactForm.reset();
+  })
+
   // parallax container
   $('.parallax').parallax();
   // init text area
