@@ -1,5 +1,5 @@
 ---
-title: Client Transparency: Something to Show vs Something Done
+title: "Client Transparency: Something to Show vs Something Done"
 date: 2016-10-08 13:54 UTC
 category: development
 tags: web development, life, business
