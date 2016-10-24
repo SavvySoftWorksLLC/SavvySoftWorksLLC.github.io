@@ -1,6 +1,7 @@
 ---
 title: Coding For Good
 date: 2016-10-08 20:55 UTC
+author: Paul Scarrone
 category: education
 tags: software, morality, social-impact
 ---

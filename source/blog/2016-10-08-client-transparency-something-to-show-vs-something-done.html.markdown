@@ -1,6 +1,7 @@
 ---
 title: "Client Transparency: Something to Show vs Something Done"
 date: 2016-10-08 13:54 UTC
+author: Paul Scarrone
 category: development
 tags: web development, life, business
 ---
