@@ -1,14 +1,15 @@
 <div class="blog container" id="blog">
-  <h4>Savvy Blog</h4>
+  <h4>Savvy Blog Latest Post</h4>
+  <h5><a href="/blog_archive.html{">Click here for the Savvy blog Archives</a></h5>
   <div class="row">
-      <% blog.articles[0...4].each do |article| %>
-        <article class="col s12 m6" style="padding-right: 2em;">
+      <% blog.articles[0...1].each do |article| %>
+        <article class="col s12" style="padding-right: 2em;">
           <h4>
             <a href="<%= article.url %>"><%= article.title %></a>
           </h4>
           <time><%= article.date.strftime('%b %e %Y') %></time>
 
-          <%= article.summary %>
+          <%= article.summary(500, '...') %>
 
           <a href="<%= article.url %>">Read more</a>
         </article>
