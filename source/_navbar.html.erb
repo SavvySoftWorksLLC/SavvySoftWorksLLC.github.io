@@ -1,16 +1,10 @@
 <nav>
   <div class="nav-wrapper">
 
-    <!-- Dropdown Structure -->
-    <ul id="blog_dropdown" class="dropdown-content">
-      <li><a href="<%= current_page.path == 'index.html' ? '' : '/' %>#blog">Current Post</a></li>
-      <li><a href="/blog_archive.html">Savvy Blog Archive</a></li>
-    </ul>
-
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
       <li><a href="<%= current_page.path == 'index.html' ? '' : '/' %>#about">About</a></li>
-      <li><a class="dropdown-button"  data-activates="blog_dropdown">Blog</a></li>
+      <li><a href="<%= current_page.path == 'index.html' ? '' : '/' %>#blog">Blog</a></li>
       <li><a href="<%= current_page.path == 'index.html' ? '' : '/' %>#current_clients">Current Clients</a></li>
       <li><a href="<%= current_page.path == 'index.html' ? '' : '/' %>#products">Products</a></li>
       <li><a href="<%= current_page.path == 'index.html' ? '' : '/' %>#team">Our Team</a></li>
@@ -18,8 +12,7 @@
     </ul>
     <ul class="side-nav" id="mobile-demo">
       <li><a href="<%= current_page.path == 'index.html' ? '' : '/' %>#about">About</a></li>
-      <li><a href="<%= current_page.path == 'index.html' ? '' : '/' %>#blog">Current Blog Post</a></li>
-      <li><a href="/blog_archive.html">Blog Archive</a></li>
+      <li><a href="<%= current_page.path == 'index.html' ? '' : '/' %>#blog">Blog</a></li>
       <li><a href="<%= current_page.path == 'index.html' ? '' : '/' %>#current_clients">Current Clients</a></li>
       <li><a href="<%= current_page.path == 'index.html' ? '' : '/' %>#products">Products</a></li>
       <li><a href="<%= current_page.path == 'index.html' ? '' : '/' %>#team">Our Team</a></li>
