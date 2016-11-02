@@ -90,9 +90,13 @@
 
 $body: #F5F5F5;
 $maintext: #000078;
+$abouttext: #D7263D;
+$blogtext: #F46036;
+// $currentclientstext:;
+$productstext: #006e90;
 $footer: #FFFFFF;
 $a: #000078;
-$ahover: #00AAAA;
+$ahover: #1B998B;
 
 .has-shadow {
   box-shadow: 0px 9px 7px 0px rgba(50, 50, 50, 0.6);
@@ -110,6 +114,8 @@ $ahover: #00AAAA;
 
 .nav-wrapper {
   box-shadow: 0px 9px 7px 0px rgba(50, 50, 50, 0.6);
+  background-color: $maintext;
+  padding: 0px;
 }
 
 .uppercase {
@@ -209,19 +215,38 @@ body {
   padding-top: 8px;
 }
 
+.about {
+  color: $abouttext;
+}
+
+.blog {
+  color: $blogtext;
+  a {
+    color: darken($blogtext, 5%);
+  }
+  a:hover {
+    // color: lighten($blogtext, 25%);
+  }
+}
+
+.products {
+  color: $productstext;
+  a {
+    color: $productstext;
+  }
+}
+
 .contact{
   color: $maintext;
+  button:hover {
+    background-color: $ahover;
+  }
 }
 
 .products.container {
   a {
     overflow-wrap: break-word;
   }
-}
-
-.nav-wrapper{
-  background-color: $maintext;
-  padding: 0px;
 }
 
 a{
@@ -233,7 +258,17 @@ a:hover{
 }
 
 footer{
+  margin: 0;
+  padding: 2em 0 1em 0;
   text-align: center;
+  background-color: $maintext;
+  color: $body;
+  h5 {
+    margin: 0;
+  }
+  a {
+    color: $body;
+  }
 }
 
 .returntotop {
