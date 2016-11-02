@@ -7,6 +7,9 @@ activate :blog do |blog|
   blog.layout = 'blog'
   blog.sources = "{year}-{month}-{day}-{title}.html"
   blog.permalink = "{category}/{title}.html"
+  # blog.paginate = true
+  # blog.per_page = 2
+  # blog.page_link = "page/:num"
 end
 
 ###

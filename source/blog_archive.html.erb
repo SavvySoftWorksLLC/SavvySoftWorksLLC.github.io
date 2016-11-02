@@ -1,0 +1,25 @@
+---
+title: SavvySoftWorks | Blog Archive
+<!-- pageable: true -->
+---
+<div class="blog blog_container" id="blog">
+  <div class="row">
+    <h2 class="center-align">Savvy Blog Archive</h2>
+  </div>
+  <div class="row">
+    <% blog.articles.each do |article| %>
+      <article class="col s12 m6" style="padding-right: 2em;">
+        <h3 class="blog_header center-align">
+          <a href="<%= article.url %>"><%= article.title %></a>
+        </h3>
+        <p  style="text-align: center;">
+          <time><%= article.date.strftime('%b %e %Y') %></time>
+        </p>
+        <%= article.summary(250, '...') %>
+        <p style ="text-align: center">
+          <a href="<%= article.url %>">Read more</a>
+        </p>
+      </article>
+    <% end %>
+  </div>
+</div>

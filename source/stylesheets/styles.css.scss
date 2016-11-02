@@ -307,6 +307,11 @@ footer{
   max-width: 100%;
 }
 
+.blog_container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .leftcol {
   @media #{$medium-and-up} {
     padding-right: 2em;
