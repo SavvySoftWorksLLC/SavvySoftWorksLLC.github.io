@@ -90,7 +90,7 @@
 
 $body: #F5F5F5;
 $maintext: #000078;
-$abouttext: #D7263D;
+$abouttext: #540D6E; //#D7263D;
 $blogtext: #F46036;
 // $currentclientstext:;
 $productstext: #006e90;
@@ -101,7 +101,7 @@ $ahover: #1B998B;
 .has-shadow {
   box-shadow: 0px 9px 7px 0px rgba(50, 50, 50, 0.6);
   margin-bottom: 0;
-  padding-bottom: 20px;
+  // padding-bottom: 20px;
 }
 
 .section-title {
@@ -217,15 +217,33 @@ body {
 
 .about {
   color: $abouttext;
+  font-size: 1.1em;
 }
 
 .blog {
-  color: $blogtext;
+  background-color: $productstext; //#007991; //#88AB75;
+  color: darken($body, 5%);
   a {
-    color: darken($blogtext, 5%);
+    color: #FFFFFF;
   }
   a:hover {
-    // color: lighten($blogtext, 25%);
+    color: #F3C859;
+  }
+}
+
+.current_clients {
+  // background-color: #E3B505;
+}
+
+.blend {
+  background: 
+    // linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%),
+    linear-gradient(-180deg, lighten(#639A88, 25%) 0%, #639A88 98%),
+}
+
+.products.container {
+  a {
+    overflow-wrap: break-word;
   }
 }
 
@@ -236,16 +254,18 @@ body {
   }
 }
 
+.team {
+  color: $body;
+  background-color: $ahover; //#1B998B; //#439a86;
+  a:hover {
+    color: #F3C859;
+  }
+}
+
 .contact{
   color: $maintext;
   button:hover {
     background-color: $ahover;
-  }
-}
-
-.products.container {
-  a {
-    overflow-wrap: break-word;
   }
 }
 
@@ -273,7 +293,7 @@ footer{
 
 .returntotop {
     position: fixed;
-    background-color: $maintext;
+    background-color: lighten($maintext, 3%);
     //width: 100%;
 }
 
