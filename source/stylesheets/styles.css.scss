@@ -92,7 +92,7 @@ $body: #F5F5F5;
 $maintext: #000078;
 $abouttext: #540D6E; //#D7263D;
 $blogtext: #F46036;
-// $currentclientstext:;
+$currentclients: #8AB0AB;
 $productstext: #006e90;
 $footer: #FFFFFF;
 $a: #000078;
@@ -134,6 +134,7 @@ $ahover: #1B998B;
 .current_clients {
   .collapsible-header {
     font-weight: 700;
+    color: darken($currentclients, 20%);
   }
   h5 {
     padding-top: 1em;
@@ -156,9 +157,12 @@ $ahover: #1B998B;
   a {
     color: $body;
   }
+  a:hover {
+    color: #E0FF4F;
+  }
 
   font-size: 1.1em;
-  background-color: $maintext;
+  background-color: darken($currentclients, 20%); //$maintext;
   color: darken($body, 5%);
   font-weight: 300;
   font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
@@ -227,12 +231,13 @@ body {
     color: #FFFFFF;
   }
   a:hover {
-    color: #F3C859;
+    color: #E0FF4F;
   }
 }
 
 .current_clients {
   // background-color: #E3B505;
+  background: $currentclients;
 }
 
 .blend {
@@ -256,9 +261,12 @@ body {
 
 .team {
   color: $body;
-  background-color: $ahover; //#1B998B; //#439a86;
+  background-color: darken($ahover, 15%); //#1B998B; //#439a86;
+  a {
+    color: darken($body, 10%);
+  }
   a:hover {
-    color: #F3C859;
+    color: #E0FF4F;
   }
 }
 
