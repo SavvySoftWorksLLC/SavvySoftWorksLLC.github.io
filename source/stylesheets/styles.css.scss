@@ -90,14 +90,18 @@
 
 $body: #F5F5F5;
 $maintext: #000078;
+$abouttext: #540D6E; //#D7263D;
+$blogtext: #F46036;
+$currentclients: #8AB0AB;
+$productstext: #006e90;
 $footer: #FFFFFF;
 $a: #000078;
-$ahover: #00AAAA;
+$ahover: #1B998B;
 
 .has-shadow {
   box-shadow: 0px 9px 7px 0px rgba(50, 50, 50, 0.6);
   margin-bottom: 0;
-  padding-bottom: 20px;
+  // padding-bottom: 20px;
 }
 
 .section-title {
@@ -110,6 +114,8 @@ $ahover: #00AAAA;
 
 .nav-wrapper {
   box-shadow: 0px 9px 7px 0px rgba(50, 50, 50, 0.6);
+  background-color: $maintext;
+  padding: 0px;
 }
 
 .uppercase {
@@ -128,6 +134,7 @@ $ahover: #00AAAA;
 .current_clients {
   .collapsible-header {
     font-weight: 700;
+    color: darken($currentclients, 20%);
   }
   h5 {
     padding-top: 1em;
@@ -150,9 +157,12 @@ $ahover: #00AAAA;
   a {
     color: $body;
   }
+  a:hover {
+    color: #E0FF4F;
+  }
 
   font-size: 1.1em;
-  background-color: $maintext;
+  background-color: darken($currentclients, 20%); //$maintext;
   color: darken($body, 5%);
   font-weight: 300;
   font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
@@ -209,8 +219,31 @@ body {
   padding-top: 8px;
 }
 
-.contact{
-  color: $maintext;
+.about {
+  color: $abouttext;
+  font-size: 1.1em;
+}
+
+.blog {
+  background-color: $productstext; //#007991; //#88AB75;
+  color: darken($body, 5%);
+  a {
+    color: #FFFFFF;
+  }
+  a:hover {
+    color: #E0FF4F;
+  }
+}
+
+.current_clients {
+  // background-color: #E3B505;
+  background: $currentclients;
+}
+
+.blend {
+  background: 
+    // linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%),
+    linear-gradient(-180deg, lighten(#639A88, 25%) 0%, #639A88 98%),
 }
 
 .products.container {
@@ -219,9 +252,29 @@ body {
   }
 }
 
-.nav-wrapper{
-  background-color: $maintext;
-  padding: 0px;
+.products {
+  color: $productstext;
+  a {
+    color: $productstext;
+  }
+}
+
+.team {
+  color: $body;
+  background-color: darken($ahover, 15%); //#1B998B; //#439a86;
+  a {
+    color: darken($body, 10%);
+  }
+  a:hover {
+    color: #E0FF4F;
+  }
+}
+
+.contact{
+  color: $maintext;
+  button:hover {
+    background-color: $ahover;
+  }
 }
 
 a{
@@ -233,12 +286,22 @@ a:hover{
 }
 
 footer{
+  margin: 0;
+  padding: 2em 0 1em 0;
   text-align: center;
+  background-color: $maintext;
+  color: $body;
+  h5 {
+    margin: 0;
+  }
+  a {
+    color: $body;
+  }
 }
 
 .returntotop {
     position: fixed;
-    background-color: $maintext;
+    background-color: lighten($maintext, 3%);
     //width: 100%;
 }
 
