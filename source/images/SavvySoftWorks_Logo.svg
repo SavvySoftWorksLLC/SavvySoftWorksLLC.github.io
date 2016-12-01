@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="592"
+   height="96"
+   viewBox="0 0 592 96"
+   id="svg4138"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="SavvySoftWorks_Logo.svg"
+   inkscape:export-filename="/Users/garyanewsome/Desktop/SavvySoftWorks_Logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4140">
+    <linearGradient
+       id="linearGradient6441"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6443" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6435"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#478586;stop-opacity:1;"
+         offset="0"
+         id="stop6437" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6417"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6419" />
+    </linearGradient>
+    <filter
+       inkscape:label="Evanescent"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur the contents of objects, preserving the outline and adding progressive transparency at edges"
+       style="color-interpolation-filters:sRGB"
+       id="filter4146">
+      <feGaussianBlur
+         result="result6"
+         stdDeviation="3"
+         in="SourceGraphic"
+         id="feGaussianBlur4148" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+         result="result7"
+         in="SourceGraphic"
+         id="feColorMatrix4150" />
+      <feComposite
+         operator="in"
+         in="result6"
+         in2="result7"
+         id="feComposite4152" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2675781"
+     inkscape:cx="284.71167"
+     inkscape:cy="-7.0921892"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1440"
+     inkscape:window-height="851"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     units="px"
+     showguides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4724" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4143">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-956.36216)">
+    <path
+       style="opacity:1;fill:#418bc4;fill-opacity:1;fill-rule:nonzero;stroke:#418bc4;stroke-width:3.69432759;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6527"
+       sodipodi:type="arc"
+       sodipodi:cx="54.734653"
+       sodipodi:cy="1004.9355"
+       sodipodi:rx="45.661671"
+       sodipodi:ry="45.554432"
+       sodipodi:start="3.1302829"
+       sodipodi:end="3.1269122"
+       d="M 9.0759031,1005.4507 A 45.661671,45.554432 0 0 1 54.179767,959.38442 45.661671,45.554432 0 0 1 100.39247,1004.3435 45.661671,45.554432 0 0 1 55.366489,1050.4856 45.661671,45.554432 0 0 1 9.0779031,1005.6042"
+       sodipodi:open="true" />
+    <path
+       style="opacity:1;fill:#418bc4;fill-opacity:1;fill-rule:nonzero;stroke:#f5f5f5;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6542"
+       sodipodi:type="arc"
+       sodipodi:cx="54.729427"
+       sodipodi:cy="1004.5643"
+       sodipodi:rx="42.940521"
+       sodipodi:ry="43.136372"
+       sodipodi:start="3.1302829"
+       sodipodi:end="3.1269144"
+       sodipodi:open="true"
+       d="m 11.791652,1005.0521 a 42.940521,43.136372 0 0 1 42.41598,-43.62102 42.940521,43.136372 0 0 1 43.458692,42.57272 42.940521,43.136372 0 0 1 -42.342785,43.6927 42.940521,43.136372 0 0 1 -43.530007,-42.4991"
+       inkscape:export-filename="/Users/garyanewsome/Desktop/SavvyGirl_AltColor4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:146.37162781px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="26.067616"
+       y="999.91608"
+       id="text6537"
+       sodipodi:linespacing="125%"
+       transform="scale(0.96094619,1.040641)"><tspan
+         sodipodi:role="line"
+         id="tspan6539"
+         x="26.067616"
+         y="999.91608"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:90px;font-family:'.Aqua Kana';-inkscape-font-specification:'.Aqua Kana Light';fill:#f5f5f5;fill-opacity:1">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#418bc4;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="102.15797"
+       y="1031.3369"
+       id="text4150"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4152"
+         x="102.15797"
+         y="1031.3369"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70px;font-family:Raleway;-inkscape-font-specification:Raleway;fill:#418bc4;fill-opacity:1">avvySoftWorks</tspan></text>
+  </g>
+</svg>
