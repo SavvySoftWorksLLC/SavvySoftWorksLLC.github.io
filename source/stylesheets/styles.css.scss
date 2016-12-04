@@ -90,13 +90,16 @@
 
 $body: #F5F5F5;
 $maintext: #000078;
-$abouttext: #540D6E; //#D7263D;
-$blogtext: #F46036;
-$currentclients: #8AB0AB;
-$productstext: #006e90;
-$footer: #FFFFFF;
+$logocolor: #418BC4;
 $a: #000078;
-$ahover: #1B998B;
+// $ahover: #E0FF4F;
+$ahover: #EEC643;
+$aboutcolor: #540D6E; //#D7263D;
+$blogcolor: #006E90;
+$currentclients: #8AB0AB;
+$productscolor: #006E90;
+$teamcolor: #105850;
+$footer: #FFFFFF;
 
 .has-shadow {
   box-shadow: 0px 9px 7px 0px rgba(50, 50, 50, 0.6);
@@ -114,7 +117,7 @@ $ahover: #1B998B;
 
 .nav-wrapper {
   box-shadow: 0px 9px 7px 0px rgba(50, 50, 50, 0.6);
-  background-color: $maintext;
+  background-color: $logocolor;
   padding: 0px;
 }
 
@@ -130,6 +133,87 @@ $ahover: #1B998B;
   font-size: 36px; }
 .material-icons.md-48 {
   font-size: 48px; }
+
+img{
+  margin-top: 4px;
+}
+
+body {
+  background-color: $body;
+  color: $maintext;
+}
+
+a{
+  color: $a;
+}
+
+a:hover{
+  color: $ahover;
+}
+
+.container {
+  font-family: Oxygen, Ubuntu, "Trebuchet MS", Helvetica, sans-serif;
+  padding: 8px;
+  width: 80%;
+}
+
+.slide_container {
+  font-family: Oxygen, Ubuntu, "Trebuchet MS", Helvetica, sans-serif;
+  padding: 8px;
+  width: 100%;
+}
+
+.parallax-container {
+  height: 400px;
+}
+
+.header{
+  padding-top: 8px;
+}
+
+.logo {
+  h4 {
+    color: $logocolor;
+    font-family: Oxygen, cursive;
+    @media #{$small-and-down} {
+    font-size: 2em;
+  }
+  }
+  a:hover {
+    color: $maintext;
+  }  
+}
+
+.headinfo {
+  h6 {
+    line-height: 1.5em;
+    font-size: 1.1em;
+    text-align: right;
+  }
+  a:hover {
+    color: $logocolor;
+  }
+}
+
+.about {
+  color: $aboutcolor;
+  font-size: 1.1em;
+}
+
+.blog {
+  background-color: $blogcolor;
+  color: darken($body, 5%);
+  a {
+    color: #FFFFFF;
+  }
+  a:hover {
+    color: $ahover;
+  }
+}
+
+.current_clients {
+  background: $currentclients;
+}
 
 .current_clients {
   .collapsible-header {
@@ -158,92 +242,14 @@ $ahover: #1B998B;
     color: $body;
   }
   a:hover {
-    color: #E0FF4F;
+    color: $ahover;
   }
 
   font-size: 1.1em;
-  background-color: darken($currentclients, 20%); //$maintext;
+  background-color: darken($currentclients, 20%);
   color: darken($body, 5%);
   font-weight: 300;
   font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
-}
-
-
-img{
-  margin-top: 4px;
-}
-
-body {
-  background-color: $body;
-  color: $maintext;
-}
-
-.logo {
-  h1 {
-    font-family: Oxygen, cursive;
-    @media #{$small-and-down} {
-    font-size: 3.5em;
-  }
-  }
-  a:hover {
-    color: $maintext;
-  }  
-}
-
-.headinfo {
-  h6 {
-    line-height: 1.5em;
-    font-size: 1.1em;
-    text-align: right;
-  }
-
-}
-
-.container {
-  font-family: Oxygen, Ubuntu, "Trebuchet MS", Helvetica, sans-serif;
-  padding: 8px;
-  width: 80%;
-}
-
-.slide_container {
-  font-family: Oxygen, Ubuntu, "Trebuchet MS", Helvetica, sans-serif;
-  padding: 8px;
-  width: 100%;
-}
-
-.parallax-container {
-  height: 400px;
-}
-
-.header{
-  padding-top: 8px;
-}
-
-.about {
-  color: $abouttext;
-  font-size: 1.1em;
-}
-
-.blog {
-  background-color: $productstext; //#007991; //#88AB75;
-  color: darken($body, 5%);
-  a {
-    color: #FFFFFF;
-  }
-  a:hover {
-    color: #E0FF4F;
-  }
-}
-
-.current_clients {
-  // background-color: #E3B505;
-  background: $currentclients;
-}
-
-.blend {
-  background: 
-    // linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%),
-    linear-gradient(-180deg, lighten(#639A88, 25%) 0%, #639A88 98%),
 }
 
 .products.container {
@@ -253,44 +259,43 @@ body {
 }
 
 .products {
-  color: $productstext;
+  color: $productscolor;
   a {
-    color: $productstext;
+    color: $productscolor;
+  }
+  a:hover {
+    color: lighten($productscolor, 20%);
   }
 }
 
 .team {
   color: $body;
-  background-color: darken($ahover, 15%); //#1B998B; //#439a86;
+  background-color: $teamcolor;
   a {
     color: darken($body, 10%);
   }
   a:hover {
-    color: #E0FF4F;
+    color: $ahover;
   }
 }
 
 .contact{
   color: $maintext;
   button:hover {
-    background-color: $ahover;
+    background-color: $logocolor;
   }
 }
 
-a{
-  color: $a;
-}
-
-a:hover{
-  color: $ahover;
+.submit {
+  background-color: $maintext;
 }
 
 footer{
   margin: 0;
-  padding: 2em 0 1em 0;
+  padding: 2em 1em 1em 1em;
   text-align: center;
-  background-color: $maintext;
-  color: $body;
+  background-color: $body;
+  color: $logocolor;
   h5 {
     margin: 0;
   }
@@ -301,18 +306,15 @@ footer{
 
 .returntotop {
     position: fixed;
-    background-color: lighten($maintext, 3%);
+    background-color: $maintext;
     //width: 100%;
 }
 
 .returntotop:hover{
   color: #FFFFFF;
-  background-color: $ahover;
+  background-color: $logocolor;
 }
 
-.submit{
-  background-color: $maintext;
-}
 
 .rslides_tabs {
   list-style: none;
