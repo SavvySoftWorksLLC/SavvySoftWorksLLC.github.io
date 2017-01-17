@@ -206,12 +206,18 @@ a:hover{
   a {
     color: #FFFFFF;
   }
+  a:hover {
+    color: $ahover;
+  }
 }
 
 .current_clients {
   background: $currentclients;
   a {
     color: #FFFFFF;
+  }
+  a:hover {
+    color: $ahover;
   }
 }
 
