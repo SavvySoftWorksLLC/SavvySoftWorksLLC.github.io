@@ -6281,16 +6281,16 @@ a:hover {
   color: #e8e8e8; }
   .blog a {
     color: #FFFFFF; }
-  .blog a:hover {
-    color: #EEC643; }
 
 .current_clients {
   background: #8AB0AB; }
+  .current_clients a {
+    color: #FFFFFF; }
 
 .current_clients .collapsible-header {
   font-weight: 700;
   color: #557f79; }
-.current_clients h5 {
+.current_clients .h5-pad {
   padding-top: 1em;
   padding-left: 1em;
   margin: 0;
@@ -6313,6 +6313,14 @@ a:hover {
     color: #F5F5F5; }
   .collapsible-body a:hover {
     color: #EEC643; }
+
+.clients {
+  font-size: 1.1em;
+  font-family: Oxygen, Ubuntu, Helvetica, sans-serif; }
+  .clients .client-heading {
+    font-family: Oxygen, Ubuntu, Helvetica, sans-serif; }
+  .clients .clients-bold {
+    font-weight: 700; }
 
 .products.container a {
   overflow-wrap: break-word; }
