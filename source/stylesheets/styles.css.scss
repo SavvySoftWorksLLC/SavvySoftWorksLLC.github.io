@@ -206,13 +206,13 @@ a:hover{
   a {
     color: #FFFFFF;
   }
-  a:hover {
-    color: $ahover;
-  }
 }
 
 .current_clients {
   background: $currentclients;
+  a {
+    color: #FFFFFF;
+  }
 }
 
 .current_clients {
@@ -220,7 +220,7 @@ a:hover{
     font-weight: 700;
     color: darken($currentclients, 20%);
   }
-  h5 {
+  .h5-pad {
     padding-top: 1em;
     padding-left: 1em;
     margin: 0;
@@ -250,6 +250,17 @@ a:hover{
   color: darken($body, 5%);
   font-weight: 300;
   font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
+}
+
+.clients {
+  .client-heading {
+    font-family: Oxygen, Ubuntu, Helvetica, sans-serif;
+  }
+  .clients-bold {
+    font-weight: 700;
+  }
+  font-size: 1.1em;
+  font-family: Oxygen, Ubuntu, Helvetica, sans-serif;
 }
 
 .products.container {
