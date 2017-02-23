@@ -6430,3 +6430,18 @@ footer {
 @media only screen and (min-width: 601px) {
   .rightcol {
     padding-left: 2em; } }
+
+.laravel-body {
+  font-family: tahoma, sans-serif;
+  background-color: #FFFFFF;
+  color: #FD503B; }
+
+.laravel h1 {
+  font-family: raleway, tahoma, sans-serif;
+  text-align: center; }
+.laravel h3 {
+  text-transform: uppercase; }
+.laravel a {
+  color: #e91b02; }
+.laravel a:hover {
+  color: #418BC4; }
