@@ -102,6 +102,7 @@ $productscolor: #006E90;
 $teamcolor: #105850;
 $footer: #FFFFFF;
 $laravel: #FD503B;
+$fullclients: $logocolor;
 
 .has-shadow {
   box-shadow: 0px 9px 7px 0px rgba(50, 50, 50, 0.6);
@@ -234,35 +235,76 @@ a:hover{
     margin: 0;
     color: $body;
   }
+  .collapsible-body {
+    h6 {
+      padding-left: 2em;
+      font-size: 1.1em;
+    }
+    p {
+      padding-left: 3em;
+      padding-top: 0;
+      padding-bottom: 1em;
+    }
+    a {
+      color: $body;
+    }
+    a:hover {
+      color: $ahover;
+    }
+
+    font-size: 1.1em;
+    background-color: darken($currentclients, 20%);
+    color: darken($body, 5%);
+    font-weight: 300;
+    font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
+  }
 }
 
-.collapsible-body {
-  h6 {
-    padding-left: 2em;
-    font-size: 1.1em;
-  }
-  p {
-    padding-left: 3em;
-    padding-top: 0;
-    padding-bottom: 1em;
-  }
+.full_clients {
   a {
-    color: $body;
+    color: #FFFFFF;
   }
   a:hover {
     color: $ahover;
   }
-
-  font-size: 1.1em;
-  background-color: darken($currentclients, 20%);
-  color: darken($body, 5%);
-  font-weight: 300;
-  font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
+  .collapsible-header {
+    font-weight: 700;
+    color: $fullclients;
+  }
+  .h5-pad {
+    padding-top: 1em;
+    padding-left: 1em;
+    margin: 0;
+    color: $body;
+  }
+  .collapsible-body {
+    h6 {
+      padding-left: 2em;
+      font-size: 1.1em;
+    }
+    p {
+      padding-left: 3em;
+      padding-top: 0;
+      padding-bottom: 1em;
+    }
+    a {
+      color: $body;
+    }
+    a:hover {
+      color: $ahover;
+    }
+    font-size: 1.1em;
+    background-color: $fullclients;
+    color: darken($body, 5%);
+    font-weight: 300;
+    font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
+  }
 }
 
 .clients {
   .client-heading {
     font-family: Oxygen, Ubuntu, Helvetica, sans-serif;
+    color: $fullclients;
   }
   .clients-bold {
     font-weight: 700;
