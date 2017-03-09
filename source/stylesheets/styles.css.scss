@@ -271,6 +271,9 @@ a:hover{
 .team {
   color: $body;
   background-color: $teamcolor;
+  p {
+    font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
+  }
   a {
     color: darken($body, 10%);
   }
