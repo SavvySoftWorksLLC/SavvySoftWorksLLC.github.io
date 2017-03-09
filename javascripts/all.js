@@ -45752,11 +45752,18 @@ $('a[href^="#"]').on('click', function(event) {
     var target = $(this.getAttribute('href'));
     if( target.length ) {
         event.preventDefault();
-        $('html, body').stop().animate({
+        if(target.selector == '#team')
+          $('html, body').animate({
+            scrollTop: $(target).offset().top - 400
+          }, 500);
+        else
+          $('html, body').stop().animate({
             scrollTop: target.offset().top
-        }, 500);
+          }, 500);
     }
 });
+
+
 
 // rslides pause on mouseover
 $('rslides').mouseover(function(){

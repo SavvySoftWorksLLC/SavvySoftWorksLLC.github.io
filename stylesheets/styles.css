@@ -6300,30 +6300,60 @@ a:hover {
   padding-left: 1em;
   margin: 0;
   color: #F5F5F5; }
-
-.collapsible-body {
+.current_clients .collapsible-body {
   font-size: 1.1em;
   background-color: #557f79;
   color: #e8e8e8;
   font-weight: 300;
   font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif; }
-  .collapsible-body h6 {
+  .current_clients .collapsible-body h6 {
     padding-left: 2em;
     font-size: 1.1em; }
-  .collapsible-body p {
+  .current_clients .collapsible-body p {
     padding-left: 3em;
     padding-top: 0;
     padding-bottom: 1em; }
-  .collapsible-body a {
+  .current_clients .collapsible-body a {
     color: #F5F5F5; }
-  .collapsible-body a:hover {
+  .current_clients .collapsible-body a:hover {
+    color: #EEC643; }
+
+.full_clients a {
+  color: #FFFFFF; }
+.full_clients a:hover {
+  color: #EEC643; }
+.full_clients .collapsible-header {
+  font-weight: 700;
+  color: #418BC4; }
+.full_clients .h5-pad {
+  padding-top: 1em;
+  padding-left: 1em;
+  margin: 0;
+  color: #F5F5F5; }
+.full_clients .collapsible-body {
+  font-size: 1.1em;
+  background-color: #418BC4;
+  color: #e8e8e8;
+  font-weight: 300;
+  font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif; }
+  .full_clients .collapsible-body h6 {
+    padding-left: 2em;
+    font-size: 1.1em; }
+  .full_clients .collapsible-body p {
+    padding-left: 3em;
+    padding-top: 0;
+    padding-bottom: 1em; }
+  .full_clients .collapsible-body a {
+    color: #F5F5F5; }
+  .full_clients .collapsible-body a:hover {
     color: #EEC643; }
 
 .clients {
   font-size: 1.1em;
   font-family: Oxygen, Ubuntu, Helvetica, sans-serif; }
   .clients .client-heading {
-    font-family: Oxygen, Ubuntu, Helvetica, sans-serif; }
+    font-family: Oxygen, Ubuntu, Helvetica, sans-serif;
+    color: #418BC4; }
   .clients .clients-bold {
     font-weight: 700; }
 
@@ -6340,6 +6370,8 @@ a:hover {
 .team {
   color: #F5F5F5;
   background-color: #105850; }
+  .team p {
+    font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif; }
   .team a {
     color: gainsboro; }
   .team a:hover {
@@ -6366,11 +6398,11 @@ footer {
 
 .returntotop {
   position: fixed;
-  background-color: #000078; }
+  background-color: #418BC4; }
 
 .returntotop:hover {
   color: #FFFFFF;
-  background-color: #418BC4; }
+  background-color: #000078; }
 
 .rslides_tabs {
   list-style: none;
