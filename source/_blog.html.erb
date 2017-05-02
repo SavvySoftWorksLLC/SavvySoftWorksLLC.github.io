@@ -1,4 +1,4 @@
-<div class="blog">
+<div class="blog inverted-colors">
   <div class="container" id="blog">
     <h4 class="section-title">Savvy Blog Latest Post</h4>
     <p>
@@ -11,7 +11,7 @@
       <% blog.articles[0...1].each do |article| %>
         <article class="col s12" style="padding-right: 2em;">
           <h4>
-            <a href="<%= article.url %>"><%= article.title %></a>
+            <%= article.title %>
           </h4>
           <time><%= article.date.strftime('%b %e %Y') %></time>
 
