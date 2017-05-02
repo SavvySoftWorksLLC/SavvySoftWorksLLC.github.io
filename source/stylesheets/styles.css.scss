@@ -217,11 +217,23 @@ a:hover{
 
 .current_clients {
   background: $currentclients;
+  color: #FFFFFF;
   a {
     color: #FFFFFF;
+
   }
   a:hover {
     color: $ahover;
+  }
+  .client_name {
+    height: 75px;
+    a {
+      vertical-align: bottom;
+    }
+    
+  }
+  .client_desc {
+    height: 3.5em;
   }
 }
 
@@ -236,6 +248,10 @@ a:hover{
     margin: 0;
     color: $body;
   }
+  p {
+    margin: 0;
+  }
+
   .collapsible-body {
     h6 {
       padding-left: 2em;
