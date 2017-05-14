@@ -1,13 +1,12 @@
 <div class="blog">
   <div class="container" id="blog">
-    <h4>Savvy Blog Latest Post</h4>
-    <h5>
+    <h4 class="section-title">Savvy Blog Latest Post</h4>
+    <p>
       <a href="/blog_archive.html">
-        <i class="material-icons">fast_forward</i>
-          Click here for the Savvy blog Archives
-        <i class="material-icons">fast_rewind</i>
+          View the Savvy Blog Archives
+           <i class="material-icons tiny">link</i>
       </a>
-    </h5>
+    </p>
     <div class="row">
       <% blog.articles[0...1].each do |article| %>
         <article class="col s12" style="padding-right: 2em;">
