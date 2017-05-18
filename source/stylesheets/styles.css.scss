@@ -94,8 +94,6 @@ $body: #F5F5F5;
 $maintext: #000078;
 $logocolor: #418BC4;
 $a: #000078;
-// $ahover: #E0FF4F;
-// $ahover: #EEC643;
 $ahover: $maintext;
 $aboutcolor: #540D6E; //#D7263D;
 $blogcolor: #006E90;
@@ -105,8 +103,6 @@ $teamcolor: #105850;
 $footer: #FFFFFF;
 $laravel: #FD503B;
 $fullclients: $logocolor;
-
-
 
 // Sam's color set built off of Gary's ^^
 $main: $logocolor;  // curious blue
@@ -130,25 +126,32 @@ $light: $body;      // off-white
   }
   background-color: $light;
   color: $dark;
+  .see-more {
+    margin: 0;
+    a { color: $faded; }
+    a:hover { color: $accent; }
+  }
 }
 
 .inverted-colors {
   h4 { color: lighten($main, 20); }
   a, a:visited { color: lighten($faded, 20); }
   a:hover { color: $light; }
+  .see-more {
+    margin: 0;
+    a, a:visited { color: $faded; }
+    a:hover { color: $light; }
+  }
   background-color: $accent;
   color: lighten($light, 20);
 }
+
+
 
 .blog, .current_clients {
   h4 {
     margin-bottom: 3px;
   }
-}
-
-.see-more { 
-  margin: 0;
-  a { color: $dark !important; }
 }
 
 .has-shadow {
@@ -172,7 +175,6 @@ $light: $body;      // off-white
   a:hover {color: $light; }
 
 }
-
 
 .uppercase {
   text-transform: uppercase;
@@ -233,7 +235,7 @@ a:hover{
   }
   a:hover {
     color: $ahover;
-  }  
+  }
 }
 
 .headinfo {
@@ -253,7 +255,7 @@ a:hover{
     height: 75px;
     a {
       vertical-align: bottom;
-    }    
+    }
   }
   .client_desc {
     height: 3.5em;
@@ -488,5 +490,5 @@ footer{
 }
 
 .accent-text { color: $accent; }
-.faded-text { color: $faded !important; }
-.dark-text { color: $dark !important; }
+.faded-text { color: $faded; }
+.dark-text { color: $dark; }
