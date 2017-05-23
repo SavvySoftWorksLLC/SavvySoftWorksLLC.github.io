@@ -118,7 +118,8 @@ $light: $body;      // off-white
   a, a:visited { color: $main; }
   a:hover { color: $accent; }
   p {
-    a { color: $accent; }
+    a, a:visited { color: $accent; }
+    a:hover { color:$main; }
   }
   .blog {
     a { color: $main; }
