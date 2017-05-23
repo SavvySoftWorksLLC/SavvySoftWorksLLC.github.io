@@ -4,19 +4,19 @@ title: SavvySoftWorks | Blog Archive
 ---
 <div class="blog_container main-colors" id="blog">
   <div class="row">
-    <h2 class="center-align">Savvy Blog Archive</h2>
+    <h2>Savvy Blog Archive</h2>
   </div>
   <div class="row">
     <% blog.articles.each do |article| %>
       <article class="col s12 m6" style="padding-right: 2em;">
-        <h3 class="blog_header center-align">
+        <h4 class="blog_header center-align">
           <a href="<%= article.url %>"><%= article.title %></a>
-        </h3>
-        <p  style="text-align: center;">
+        </h4>
+        <p class="faded-text">
           <time><%= article.date.strftime('%b %e %Y') %></time>
         </p>
-        <%= article.summary(250, '...') %>
-        <p style ="text-align: center">
+        <%= article.summary(230, '...') %>
+        <p style="text-align:right;">
           <a href="<%= article.url %>">Read more</a>
         </p>
       </article>
