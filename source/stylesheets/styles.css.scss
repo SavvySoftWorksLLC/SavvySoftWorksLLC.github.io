@@ -120,6 +120,9 @@ $light: $body;      // off-white
   p {
     a { color: $accent; }
   }
+  .blog {
+    a { color: $main; }
+  }
   .icon-block { color: $main; }
   .input-field {
     .material-icons { color: $dark; }
@@ -139,7 +142,7 @@ $light: $body;      // off-white
   a:hover { color: $light; }
   .see-more {
     margin: 0;
-    a, a:visited { color: $faded; }
+    a, a:visited { color: lighten($faded, 20); }
     a:hover { color: $light; }
   }
   background-color: $accent;
