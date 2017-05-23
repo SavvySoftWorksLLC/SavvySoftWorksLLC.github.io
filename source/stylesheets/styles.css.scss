@@ -254,12 +254,11 @@ a:hover{
   font-size: 1.1em;
 }
 
-.current_clients {
+.current_clients, .full_clients {
   .client_name {
-    height: 75px;
-    a {
-      vertical-align: bottom;
-    }
+    height: 3em;
+    a { vertical-align: bottom;}
+    h5 { margin-bottom: 0; }
   }
   .client_desc {
     height: 3.5em;
@@ -277,37 +276,9 @@ a:hover{
   p {
     margin: 0;
   }
-  .collapsible-body {
-    h6 {
-      padding-left: 2em;
-      font-size: 1.1em;
-    }
-    p {
-      padding-left: 3em;
-      padding-top: 0;
-      padding-bottom: 1em;
-    }
-    a {
-      color: $body;
-    }
-    a:hover {
-      color: $ahover;
-    }
-    font-size: 1.1em;
-    background-color: darken($currentclients, 20%);
-    color: darken($body, 5%);
-    font-weight: 300;
-    font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
-  }
 }
 
 .full_clients {
-  a {
-    color: #FFFFFF;
-  }
-  a:hover {
-    color: $ahover;
-  }
   .collapsible-header {
     font-weight: 700;
     color: $fullclients;
