@@ -150,8 +150,6 @@ $light: $body;      // off-white
   color: lighten($light, 20);
 }
 
-
-
 .blog, .current_clients {
   h4 {
     margin-bottom: 3px;
@@ -234,8 +232,8 @@ a:hover{
   h4 {
     font-family: Oxygen, cursive;
     @media #{$small-and-down} {
-    font-size: 2em;
-  }
+      font-size: 2em;
+    }
   }
   a:hover {
     color: $ahover;
@@ -260,10 +258,85 @@ a:hover{
     a { vertical-align: bottom;}
     h5 { margin-bottom: 0; }
   }
+}
+
+.blog {
+  background-color: $blogcolor;
+  color: darken($body, 5%);
+  a {color: #FFFFFF;}
+  a:hover {color: $ahover;}
+}
+
+.current_clients {
+  background: $currentclients;
+  color: #FFFFFF;
+  a {color: #FFFFFF;}
   .client_desc {
     padding-top: 1em;
     height: 3.5em;
   }
+
+  .client_name {
+    height: 75px;
+    a {vertical-align: bottom;}
+
+  }
+  .client_desc {
+    height: 3.5em;
+  }
+  .client_name {
+    height: 75px;
+    a {
+      vertical-align: bottom;
+    }
+
+  }
+  .client_desc {
+    height: 3.5em;
+  }
+  .client_name {
+    height: 75px;
+    a {
+      vertical-align: bottom;
+    }
+
+  }
+  .client_desc {
+    height: 3.5em;
+  }
+  .client_name {
+    height: 75px;
+    a {
+      vertical-align: bottom;
+    }
+
+  }
+  .client_desc {
+    height: 3.5em;
+  }
+  .client_name {
+    height: 75px;
+    a {
+      vertical-align: bottom;
+    }
+
+  }
+  .client_desc {
+    height: 3.5em;
+  }
+  .client_name {
+    height: 75px;
+    a {
+      vertical-align: bottom;
+    }
+
+  }
+  .client_desc {
+    height: 3.5em;
+  }
+}
+
+.current_clients {
   .collapsible-header {
     font-weight: 700;
     color: darken($currentclients, 20%);
@@ -276,6 +349,30 @@ a:hover{
   }
   p {
     margin: 0;
+  }
+
+  .collapsible-body {
+    h6 {
+      padding-left: 2em;
+      font-size: 1.1em;
+    }
+    p {
+      padding-left: 3em;
+      padding-top: 0;
+      padding-bottom: 1em;
+    }
+    a {
+      color: $body;
+    }
+    a:hover {
+      color: $ahover;
+    }
+
+    font-size: 1.1em;
+    background-color: darken($currentclients, 20%);
+    color: darken($body, 5%);
+    font-weight: 300;
+    font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
   }
 }
 
