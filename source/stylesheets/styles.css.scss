@@ -93,17 +93,59 @@
 $body: #F5F5F5;
 $maintext: #000078;
 $logocolor: #418BC4;
-$a: #000078;
-// $ahover: #E0FF4F;
-$ahover: #EEC643;
-$aboutcolor: #540D6E; //#D7263D;
-$blogcolor: #006E90;
-$currentclients: #8AB0AB;
-$productscolor: #006E90;
-$teamcolor: #105850;
-$footer: #FFFFFF;
 $laravel: #FD503B;
-$fullclients: $logocolor;
+
+// Sam's color set built off of Gary's ^^
+$main: $logocolor;  // curious blue
+$accent: #07416E;   // darker blue
+$faded: #868785;    // grayish color
+$dark: #161614;     // almost black
+$light: $body;      // off-white
+
+.justify { text-align: justify; }
+
+.main-colors {
+  .section-title { color: $main; }
+  a, a:visited { color: $main; }
+  a:hover { color: $accent; }
+  p {
+    a, a:visited { color: $accent; }
+    a:hover { color:$main; }
+  }
+  .blog {
+    a { color: $main; }
+  }
+  .icon-block { color: $main; }
+  .input-field {
+    .material-icons { color: $dark; }
+  }
+  background-color: $light;
+  color: $dark;
+  .see-more {
+    margin: 0;
+    a { color: $faded; }
+    a:hover { color: $accent; }
+  }
+}
+
+.inverted-colors {
+  h4 { color: lighten($main, 20); }
+  a, a:visited { color: lighten($faded, 20); }
+  a:hover { color: $light; }
+  .see-more {
+    margin: 0;
+    a, a:visited { color: lighten($faded, 20); }
+    a:hover { color: $light; }
+  }
+  background-color: $accent;
+  color: lighten($light, 20);
+}
+
+.blog, .current_clients {
+  h4 {
+    margin-bottom: 3px;
+  }
+}
 
 .has-shadow {
   box-shadow: 0px 9px 7px 0px rgba(50, 50, 50, 0.6);
@@ -123,6 +165,8 @@ $fullclients: $logocolor;
   box-shadow: 0px 9px 7px 0px rgba(50, 50, 50, 0.6);
   background-color: $logocolor;
   padding: 0px;
+  a:hover {color: $light; }
+
 }
 
 .uppercase {
@@ -147,13 +191,6 @@ body {
   color: $maintext;
 }
 
-a{
-  color: $a;
-}
-
-a:hover{
-  color: $ahover;
-}
 
 .container {
   font-family: Oxygen, Ubuntu, "Trebuchet MS", Helvetica, sans-serif;
@@ -177,15 +214,11 @@ a:hover{
 
 .logo {
   h4 {
-    color: $logocolor;
     font-family: Oxygen, cursive;
     @media #{$small-and-down} {
-    font-size: 2em;
+      font-size: 2em;
+    }
   }
-  }
-  a:hover {
-    color: $maintext;
-  }  
 }
 
 .headinfo {
@@ -194,41 +227,28 @@ a:hover{
     font-size: 1.1em;
     text-align: right;
   }
-  a:hover {
-    color: $logocolor;
-  }
 }
 
 .about {
-  color: $aboutcolor;
   font-size: 1.1em;
 }
 
-.blog {
-  background-color: $blogcolor;
-  color: darken($body, 5%);
-  a {
-    color: #FFFFFF;
-  }
-  a:hover {
-    color: $ahover;
+.current_clients, .full_clients {
+  .client_name {
+    height: 3em;
+    a { vertical-align: bottom;}
+    h5 { margin-bottom: 0; }
   }
 }
 
 .current_clients {
-  background: $currentclients;
-  a {
-    color: #FFFFFF;
+  .client_desc {
+    padding-top: 1em;
+    height: 3.5em;
   }
-  a:hover {
-    color: $ahover;
-  }
-}
-
-.current_clients {
-  .collapsible-header {
-    font-weight: 700;
-    color: darken($currentclients, 20%);
+  .client_name {
+    height: 75px;
+    a {vertical-align: bottom;}
   }
   .h5-pad {
     padding-top: 1em;
@@ -236,76 +256,21 @@ a:hover{
     margin: 0;
     color: $body;
   }
-  .collapsible-body {
-    h6 {
-      padding-left: 2em;
-      font-size: 1.1em;
-    }
-    p {
-      padding-left: 3em;
-      padding-top: 0;
-      padding-bottom: 1em;
-    }
-    a {
-      color: $body;
-    }
-    a:hover {
-      color: $ahover;
-    }
-
-    font-size: 1.1em;
-    background-color: darken($currentclients, 20%);
-    color: darken($body, 5%);
-    font-weight: 300;
-    font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
-  }
+  p { margin: 0; }
 }
 
 .full_clients {
-  a {
-    color: #FFFFFF;
-  }
-  a:hover {
-    color: $ahover;
-  }
-  .collapsible-header {
-    font-weight: 700;
-    color: $fullclients;
-  }
   .h5-pad {
     padding-top: 1em;
     padding-left: 1em;
     margin: 0;
     color: $body;
-  }
-  .collapsible-body {
-    h6 {
-      padding-left: 2em;
-      font-size: 1.1em;
-    }
-    p {
-      padding-left: 3em;
-      padding-top: 0;
-      padding-bottom: 1em;
-    }
-    a {
-      color: $body;
-    }
-    a:hover {
-      color: $ahover;
-    }
-    font-size: 1.1em;
-    background-color: $fullclients;
-    color: darken($body, 5%);
-    font-weight: 300;
-    font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
   }
 }
 
 .clients {
   .client-heading {
     font-family: Oxygen, Ubuntu, Helvetica, sans-serif;
-    color: $fullclients;
   }
   .clients-bold {
     font-weight: 700;
@@ -320,38 +285,16 @@ a:hover{
   }
 }
 
-.products {
-  color: $productscolor;
-  a {
-    color: $productscolor;
-  }
-  a:hover {
-    color: lighten($productscolor, 20%);
-  }
-}
-
 .team {
-  color: $body;
-  background-color: $teamcolor;
   p {
     font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
-  }
-  a {
-    color: darken($body, 10%);
-  }
-  a:hover {
-    color: $ahover;
-  }
-}
-
-.contact{
-  color: $maintext;
-  button:hover {
-    background-color: $logocolor;
   }
 }
 
 .submit {
+  background-color: $main;
+}
+.submit:hover, .submit:focus {
   background-color: $maintext;
 }
 
@@ -375,9 +318,9 @@ footer{
     //width: 100%;
 }
 
-.returntotop:hover{
-  color: #FFFFFF;
-  background-color: $maintext;
+.returntotop:hover, .submit:hover {
+  color: $light;
+  background-color: darken($logocolor, 10);
 }
 
 
@@ -475,3 +418,7 @@ footer{
     color: $logocolor;
   }
 }
+
+.accent-text { color: $accent; }
+.faded-text { color: $faded; }
+.dark-text { color: $dark; }
