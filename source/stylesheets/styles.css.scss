@@ -251,54 +251,12 @@ body {
 }
 
 .current_clients {
-  background: $currentclients;
-  color: $footer;
-  a { color: $footer; }
-  a:hover { color: $ahover;}
-  .client_name {
-    height: 75px;
-    a { vertical-align: bottom; }
-  }
-  .client_desc {
-    height: 3.5em;
-  }
-
   p { margin: 0; }
-  .collapsible-body {
-    h6 {
-      padding-left: 2em;
-      font-size: 1.1em;
-    }
-  }
-  .client_desc {
-    height: 3.5em;
-  }
-
-  .client_name {
-    height: 75px;
-    a {
-      vertical-align: bottom;
-    }
-    a { color: $body; }
-    a:hover { color: $ahover; }
-    font-size: 1.1em;
-    background-color: darken($currentclients, 20%);
-    color: darken($body, 5%);
-    font-weight: 300;
-    font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
-  }
-  .client_desc { height: 3.5em; }
-}
-
-.current_clients {
   .h5-pad {
     padding-top: 1em;
     padding-left: 1em;
     margin: 0;
     color: $body;
-  }
-  p {
-    margin: 0;
   }
 }
 
@@ -341,7 +299,7 @@ body {
   background-color: $maintext;
 }
 
-footer{
+footer {
   margin: 0;
   padding: 2em 1em 1em 1em;
   text-align: center;
