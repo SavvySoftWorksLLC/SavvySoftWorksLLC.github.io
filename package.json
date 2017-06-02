@@ -19,7 +19,8 @@
   "dependencies": {
     "cornerstone-event-components": "git+ssh://git@github.com:SavvySoftWorksLLC/body-snatchers.git",
     "material-design-icons": "^2.2.3",
-    "moment": "^2.14.1"
+    "moment": "^2.14.1",
+    "savvy-styles": "git+ssh://git@github.com/SavvySoftWorksLLC/SavvyStyles.git"
   },
   "devDependencies": {}
 }
