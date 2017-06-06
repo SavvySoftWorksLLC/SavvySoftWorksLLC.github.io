@@ -253,7 +253,24 @@ body {
   color: darken($body, 5%);
 }
 
+<<<<<<< a45f00807d03d7c2ab93fef5ceba06d6af2fc598
 .current_clients {
+=======
+.clients, .current_clients {
+  background: $currentclients;
+  color: $footer;
+  a { color: $footer; }
+  a:hover { color: $ahover;}
+  .client_name {
+    height: 75px;
+    a { vertical-align: bottom; }
+  }
+  .client_desc {
+    height: 3.5em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+  }
+>>>>>>> include full clients list in styling rules
 
   p { margin: 0; }
   .h5-pad {
