@@ -167,7 +167,10 @@ $light: $body;      // off-white
   background-color: $logocolor;
   padding: 0px;
   a:hover {color: $light; }
+}
 
+.button-collapse {
+  margin-left: 1em;
 }
 
 .uppercase {
