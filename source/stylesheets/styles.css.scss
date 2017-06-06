@@ -246,7 +246,7 @@ body {
   color: darken($body, 5%);
 }
 
-.current_clients {
+.clients, .current_clients {
   background: $currentclients;
   color: $footer;
   a { color: $footer; }
