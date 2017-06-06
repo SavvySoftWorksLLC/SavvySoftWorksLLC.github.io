@@ -427,3 +427,18 @@ footer {
 .side-nav {
   a:hover { color: $main; }
 }
+
+#contact {
+  input:focus:not([readonly]) + label,
+  textarea:focus:not([readonly]) + label {
+    color: $accent;
+  }
+  input:focus, textarea:focus {
+    border-bottom-color: $accent;
+    box-shadow: 0 1px 0 0 $faded;
+  }
+  .material-icons { color: $main; }
+  .btn {
+    .material-icons { color: $light; }
+  }
+}
