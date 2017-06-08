@@ -247,10 +247,11 @@ body {
   }
   .client_desc {
     color: $faded;
+    margin-top: .5em;
     margin-bottom: .5em;
     p { margin: 0; }
     @media screen and(max-width: 920px){
-      margin-top: 1.5em;
+      margin-top: 1.7em;
     }
   }
   .h5-pad {
