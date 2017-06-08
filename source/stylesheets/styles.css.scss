@@ -105,21 +105,24 @@ $light: $body;      // off-white
 .justify { text-align: justify; }
 
 .main-colors {
+  background-color: $light;
   .section-title { color: $main; }
   a, a:visited { color: $main; }
   a:hover { color: $accent; }
   p {
     a { color: $accent; }
   }
-  .blog {
+  .blog, .blog_container {
+    p { color: $dark; }
     a { color: $main; }
+    .return_link { color: $dark; }
+    .blog_title a { color: $main;}
+    .blog_desc { color: $faded; }
   }
   .icon-block { color: $main; }
   .input-field {
     .material-icons { color: $dark; }
   }
-  background-color: $light;
-  color: $dark;
   .see-more {
     margin: 0;
     a { color: $faded; }
@@ -136,6 +139,7 @@ $light: $body;      // off-white
     a, a:visited { color: lighten($faded, 20); }
     a:hover { color: $light; }
   }
+  .blog { color: darken($body, 5%); }
   background-color: $accent;
   color: lighten($light, 20);
 }
@@ -192,7 +196,6 @@ img{
 
 body {
   background-color: $body;
-  color: $maintext;
 }
 
 
