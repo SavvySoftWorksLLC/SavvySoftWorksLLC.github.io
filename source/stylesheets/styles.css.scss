@@ -246,8 +246,11 @@ body {
   }
   .client_desc {
     color: $faded;
-    margin-top: 1.5em;
+    margin-top: 1;
     margin-bottom: 1em;
+    @media screen and(max-width: 920px){
+      margin-top: 1.5em;
+    }
   }
 }
 
