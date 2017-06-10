@@ -4,7 +4,7 @@ title: SavvySoftWorks | Blog Archive
 ---
 <div class="blog_container main-colors" id="blog">
   <div class="row">
-    <h2>Savvy Blog Archive</h2>
+    <h3>Savvy Blog Archive</h3>
   </div>
   <div class="row">
     <% blog.articles.each do |article| %>
@@ -13,7 +13,7 @@ title: SavvySoftWorks | Blog Archive
           <a href="<%= article.url %>"><%= article.title %></a>
         </h4>
         <p>
-          <time><%= article.date.strftime('%b %e %Y') %></time>
+          <time class="blog_desc"><%= article.date.strftime('%b %e %Y') %></time>
         </p>
         <%= article.summary(230, '...') %>
         <p style="text-align:right;">

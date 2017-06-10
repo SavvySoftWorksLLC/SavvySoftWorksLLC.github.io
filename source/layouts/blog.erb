@@ -2,10 +2,10 @@
   <div class="container main-colors">
     <div class='row blog'>
       <div class='col s12'>
-        <h5><a href="/blog_archive.html"><< Blog Archive</a></h5>
+        <h5 class="return_link"><a href="/blog_archive.html"><< Blog Archive</a></h5>
         <header>
-          <h4><%= current_article.title %></h4>
-          <p>
+          <h4 class="blog_title"><%= current_article.title %></h4>
+          <p class="blog_desc">
             <span><%= current_article.data.author %></span><br>
             <time><%= current_article.date.strftime('%b %e %Y') %></time>
           </p>
