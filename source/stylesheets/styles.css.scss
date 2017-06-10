@@ -107,7 +107,7 @@ $light: $body;      // off-white
 .main-colors {
   background-color: $light;
   .section-title { color: $main; }
-  a, a:visited { color: $main; }
+  .blog_title, a, a:visited { color: $main; }
   a:hover { color: $accent; }
   p {
     a { color: $accent; }
@@ -280,7 +280,7 @@ body {
 }
 
 .blog {
-  color: darken($body, 5%);
+  color: darken($main, 5%);
 }
 
 .products.container {
