@@ -445,3 +445,10 @@ footer {
     .material-icons { color: $light; }
   }
 }
+
+.close-icon {
+  color: $faded;
+  position: absolute;
+  top: -15px;
+  right: 5px;
+}
