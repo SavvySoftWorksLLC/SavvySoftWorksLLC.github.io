@@ -6199,6 +6199,61 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .material-icons.md-48 {
     font-size: 48px; }
 
+.justify {
+  text-align: justify; }
+
+.main-colors {
+  background-color: #F5F5F5; }
+  .main-colors .section-title {
+    color: #418BC4; }
+  .main-colors .blog_title, .main-colors a, .main-colors a:visited {
+    color: #418BC4; }
+  .main-colors a:hover {
+    color: #07416E; }
+  .main-colors p a {
+    color: #07416E; }
+  .main-colors .blog p, .main-colors .blog_container p {
+    color: #161614; }
+  .main-colors .blog a, .main-colors .blog_container a {
+    color: #418BC4; }
+  .main-colors .blog .return_link, .main-colors .blog_container .return_link {
+    color: #161614; }
+  .main-colors .blog .blog_title a, .main-colors .blog_container .blog_title a {
+    color: #418BC4; }
+  .main-colors .blog .blog_desc, .main-colors .blog_container .blog_desc {
+    color: #868785; }
+  .main-colors .icon-block {
+    color: #418BC4; }
+  .main-colors .input-field .material-icons {
+    color: #161614; }
+  .main-colors .see-more {
+    margin: 0; }
+    .main-colors .see-more a {
+      color: #868785; }
+    .main-colors .see-more a:hover {
+      color: #07416E; }
+
+.inverted-colors {
+  background-color: #07416E;
+  color: white; }
+  .inverted-colors h4 {
+    color: #8fbbdc; }
+  .inverted-colors a, .inverted-colors a:visited {
+    color: #b9bab8; }
+  .inverted-colors a:hover {
+    color: #F5F5F5; }
+  .inverted-colors .see-more {
+    margin: 0; }
+    .inverted-colors .see-more a, .inverted-colors .see-more a:visited {
+      color: #b9bab8; }
+    .inverted-colors .see-more a:hover {
+      color: #F5F5F5; }
+  .inverted-colors .blog {
+    color: #e8e8e8; }
+
+.blog h4, .current_clients h4 {
+  margin-bottom: 3px; }
+
 .has-shadow {
   box-shadow: 0px 9px 7px 0px rgba(50, 50, 50, 0.6);
   margin-bottom: 0; }
@@ -6213,6 +6268,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   box-shadow: 0px 9px 7px 0px rgba(50, 50, 50, 0.6);
   background-color: #418BC4;
   padding: 0px; }
+  .nav-wrapper a:hover {
+    color: #F5F5F5; }
+
+.button-collapse {
+  margin-left: 1em; }
 
 .uppercase {
   text-transform: uppercase; }
@@ -6233,14 +6293,7 @@ img {
   margin-top: 4px; }
 
 body {
-  background-color: #F5F5F5;
-  color: #000078; }
-
-a {
-  color: #000078; }
-
-a:hover {
-  color: #EEC643; }
+  background-color: #F5F5F5; }
 
 .container {
   font-family: Oxygen, Ubuntu, "Trebuchet MS", Helvetica, sans-serif;
@@ -6259,131 +6312,64 @@ a:hover {
   padding-top: 8px; }
 
 .logo h4 {
-  color: #418BC4;
   font-family: Oxygen, cursive; }
   @media only screen and (max-width: 600px) {
     .logo h4 {
       font-size: 2em; } }
-.logo a:hover {
-  color: #000078; }
 
 .headinfo h6 {
   line-height: 1.5em;
   font-size: 1.1em;
   text-align: right; }
-.headinfo a:hover {
-  color: #418BC4; }
 
 .about {
-  color: #540D6E;
   font-size: 1.1em; }
 
-.blog {
-  background-color: #006E90;
-  color: #e8e8e8; }
-  .blog a {
-    color: #FFFFFF; }
-  .blog a:hover {
-    color: #EEC643; }
-
-.current_clients {
-  background: #8AB0AB; }
-  .current_clients a {
-    color: #FFFFFF; }
-  .current_clients a:hover {
-    color: #EEC643; }
-
-.current_clients .collapsible-header {
-  font-weight: 700;
-  color: #557f79; }
-.current_clients .h5-pad {
+.current_clients .client_name, .full_clients .client_name, .clients .client_name {
+  height: 2em;
+  margin-top: 1em; }
+  .current_clients .client_name a, .full_clients .client_name a, .clients .client_name a {
+    vertical-align: bottom; }
+  .current_clients .client_name h5, .full_clients .client_name h5, .clients .client_name h5 {
+    margin-bottom: 0; }
+  .current_clients .client_name p, .full_clients .client_name p, .clients .client_name p {
+    margin: 0; }
+.current_clients .client_desc, .full_clients .client_desc, .clients .client_desc {
+  color: #868785;
+  margin-top: 1.5em;
+  margin-bottom: .5em; }
+  .current_clients .client_desc p, .full_clients .client_desc p, .clients .client_desc p {
+    margin: 0; }
+  @media screen and (max-width: 950px) {
+    .current_clients .client_desc, .full_clients .client_desc, .clients .client_desc {
+      margin-top: 3em; } }
+  @media screen and (max-width: 600px) {
+    .current_clients .client_desc, .full_clients .client_desc, .clients .client_desc {
+      margin-top: .5em; } }
+.current_clients .h5-pad, .full_clients .h5-pad, .clients .h5-pad {
   padding-top: 1em;
   padding-left: 1em;
   margin: 0;
   color: #F5F5F5; }
-.current_clients .collapsible-body {
-  font-size: 1.1em;
-  background-color: #557f79;
-  color: #e8e8e8;
-  font-weight: 300;
-  font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif; }
-  .current_clients .collapsible-body h6 {
-    padding-left: 2em;
-    font-size: 1.1em; }
-  .current_clients .collapsible-body p {
-    padding-left: 3em;
-    padding-top: 0;
-    padding-bottom: 1em; }
-  .current_clients .collapsible-body a {
-    color: #F5F5F5; }
-  .current_clients .collapsible-body a:hover {
-    color: #EEC643; }
-
-.full_clients a {
-  color: #FFFFFF; }
-.full_clients a:hover {
-  color: #EEC643; }
-.full_clients .collapsible-header {
-  font-weight: 700;
-  color: #418BC4; }
-.full_clients .h5-pad {
-  padding-top: 1em;
-  padding-left: 1em;
-  margin: 0;
-  color: #F5F5F5; }
-.full_clients .collapsible-body {
-  font-size: 1.1em;
-  background-color: #418BC4;
-  color: #e8e8e8;
-  font-weight: 300;
-  font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif; }
-  .full_clients .collapsible-body h6 {
-    padding-left: 2em;
-    font-size: 1.1em; }
-  .full_clients .collapsible-body p {
-    padding-left: 3em;
-    padding-top: 0;
-    padding-bottom: 1em; }
-  .full_clients .collapsible-body a {
-    color: #F5F5F5; }
-  .full_clients .collapsible-body a:hover {
-    color: #EEC643; }
 
 .clients {
   font-size: 1.1em;
   font-family: Oxygen, Ubuntu, Helvetica, sans-serif; }
   .clients .client-heading {
-    font-family: Oxygen, Ubuntu, Helvetica, sans-serif;
-    color: #418BC4; }
+    font-family: Oxygen, Ubuntu, Helvetica, sans-serif; }
   .clients .clients-bold {
     font-weight: 700; }
 
 .products.container a {
   overflow-wrap: break-word; }
 
-.products {
-  color: #006E90; }
-  .products a {
-    color: #006E90; }
-  .products a:hover {
-    color: #00bcf6; }
-
-.team {
-  color: #F5F5F5;
-  background-color: #105850; }
-  .team p {
-    font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif; }
-  .team a {
-    color: gainsboro; }
-  .team a:hover {
-    color: #EEC643; }
-
-.contact {
-  color: #000078; }
-  .contact button:hover {
-    background-color: #418BC4; }
+.team p {
+  font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif; }
 
 .submit {
+  background-color: #418BC4; }
+
+.submit:hover, .submit:focus {
   background-color: #000078; }
 
 footer {
@@ -6401,9 +6387,9 @@ footer {
   position: fixed;
   background-color: #418BC4; }
 
-.returntotop:hover {
-  color: #FFFFFF;
-  background-color: #000078; }
+.returntotop:hover, .submit:hover {
+  color: #F5F5F5;
+  background-color: #3270a0; }
 
 .rslides_tabs {
   list-style: none;
@@ -6479,6 +6465,29 @@ footer {
   color: #e91b02; }
 .laravel a:hover {
   color: #418BC4; }
+
+.accent-text {
+  color: #07416E; }
+
+.faded-text {
+  color: #868785; }
+
+.dark-text {
+  color: #161614; }
+
+.side-nav a:hover {
+  color: #418BC4; }
+
+#contact input:focus:not([readonly]) + label,
+#contact textarea:focus:not([readonly]) + label {
+  color: #07416E; }
+#contact input:focus, #contact textarea:focus {
+  border-bottom-color: #07416E;
+  box-shadow: 0 1px 0 0 #868785; }
+#contact .material-icons {
+  color: #418BC4; }
+#contact .btn .material-icons, #contact .btn-large .material-icons {
+  color: #F5F5F5; }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
