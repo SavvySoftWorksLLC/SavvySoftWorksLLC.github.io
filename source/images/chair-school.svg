@@ -1,0 +1,14 @@
+<svg width="48" height="48" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>chair-school (Canvas)</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(82 121)">
+<g id="chair-school">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-82 -121)" fill="#418BC4"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 48 3.99653L 48 9.17341L 35.4543 9.17341L 26.7475 22.1156L 32.9451 22.1156L 32.9451 27.2925L 29.081 27.2925L 38.39 48L 32.8698 48L 30.5363 42.8231L 8.80711 42.8231L 6.22269 48L 0.577104 48L 10.9399 27.2925L 10.3628 27.2925C 9.23367 27.2925 8.28019 26.516 7.954 25.4806L -2.87149e-07 0.993938L 2.38369 0.113868C 3.68845 -0.300282 5.11866 0.450366 5.54522 1.79635L 12.1694 22.1156L 23.1594 22.1156L 31.8662 9.17341L 22.9085 9.17341L 22.9085 3.99653L 48 3.99653ZM 16.6357 27.2925L 11.4166 37.6462L 28.2028 37.6462L 23.5609 27.2925L 16.6357 27.2925Z"/>
+</defs>
+</svg>
