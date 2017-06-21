@@ -7,15 +7,14 @@
 $(".button-collapse").sideNav();
 
 $(document).ready(function(){
-//  $('.slider').slider({full_width: true,
-//    interval: 2500
-//  });
 
-
-  var contactForm = document.querySelector('#contact form')
-  contactForm.addEventListener('saved', function(e){
-    contactForm.reset();
-  })
+  var ifExists = document.querySelector('#contact form')
+  if (ifExists !== null) {
+    var contactForm = document.querySelector('#contact form')
+    contactForm.addEventListener('saved', function(e){
+      contactForm.reset();
+    })
+  }
 
   // parallax container
   $('.parallax').parallax();
@@ -62,8 +61,6 @@ $('a[href^="#"]').on('click', function(event) {
           }, 500);
     }
 });
-
-
 
 // rslides pause on mouseover
 $('rslides').mouseover(function(){
