@@ -1,12 +1,5 @@
 @charset "UTF-8";
 
-@import url(https://fonts.googleapis.com/css?family=Audiowide);
-@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
-@import url(https://fonts.googleapis.com/css?family=Quicksand);
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-@import url(https://fonts.googleapis.com/css?family=Eagle+Lake);
-
 // Mixins
 // @import "components/prefixer";
 @import "materialize/components/mixins";
@@ -45,38 +38,6 @@
 @import "materialize/components/date_picker/default";
 @import "materialize/components/date_picker/default.date";
 @import "materialize/components/date_picker/default.time";
-
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
-
-  &.md-18{font-size: 18px;}
-  &.md-24{font-size: 24px;}
-  &.md-36{font-size: 36px;}
-  &.md-48{font-size: 48px;}
-}
 
 $body: #F5F5F5;
 $maintext: #000078;

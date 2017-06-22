@@ -11,7 +11,7 @@
  * file per style scope.
  *
  *= require fonts.css
- *= require mdi/scss/materialdesignicons
+ *= require materialdesignicons.css
  *= require styles.css
  *= require case_studies.css
  */
