@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Eagle+Lake);
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/mdi/fonts/materialdesignicons-webfont.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('../assets/mdi/fonts/materialdesignicons-webfont'),
+       url(../assets/mdi/fonts/materialdesignicons-webfont.woff2) format('woff2'),
+       url(../assets/mdi/fonts/materialdesignicons-webfont.woff) format('woff'),
+       url(../assets/mdi/fonts/materialdesignicons-webfont.ttf) format('truetype');
+}

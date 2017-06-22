@@ -10,12 +10,8 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= link material-design-icons/iconfont/MaterialIcons-Regular.eot
- *= link material-design-icons/iconfont/MaterialIcons-Regular.svg
- *= link material-design-icons/iconfont/MaterialIcons-Regular.ttf
- *= link material-design-icons/iconfont/MaterialIcons-Regular.woff
- *= link material-design-icons/iconfont/MaterialIcons-Regular.woff2
- *= require material-design-icons/www/css/material.css
+ *= require fonts.css
+ *= require mdi/scss/materialdesignicons
  *= require styles.css
  *= require case_studies
  */
