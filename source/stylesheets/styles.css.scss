@@ -51,6 +51,8 @@ $faded: #868785;    // grayish color
 $dark: #161614;     // almost black
 $light: $body;      // off-white
 
+@import "case_studies";
+
 .justify { text-align: justify; }
 
 .main-colors {
