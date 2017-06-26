@@ -25,6 +25,12 @@
     <lastmod>2017-06-25</lastmod>
   </url>
   <url>
+    <loc>https://savvysoftworks.com/blog/development/why-we-moved-on-to-phalcon-from-laravel.html</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2017-06-25</lastmod>
+  </url>
+  <url>
     <loc>https://savvysoftworks.com/blog.html</loc>
     <priority>1.0</priority>
     <changefreq>monthly</changefreq>
@@ -32,6 +38,42 @@
   </url>
   <url>
     <loc>https://savvysoftworks.com/blog_archive.html</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2017-06-25</lastmod>
+  </url>
+  <url>
+    <loc>https://savvysoftworks.com/case_studies/emailclient.html</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2017-06-25</lastmod>
+  </url>
+  <url>
+    <loc>https://savvysoftworks.com/case_studies/engineersandinspectors.html</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2017-06-25</lastmod>
+  </url>
+  <url>
+    <loc>https://savvysoftworks.com/case_studies/library.html</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2017-06-25</lastmod>
+  </url>
+  <url>
+    <loc>https://savvysoftworks.com/case_studies/readydayone.html</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2017-06-25</lastmod>
+  </url>
+  <url>
+    <loc>https://savvysoftworks.com/case_studies/savvyshotsphotography.html</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2017-06-25</lastmod>
+  </url>
+  <url>
+    <loc>https://savvysoftworks.com/case_studies.html</loc>
     <priority>1.0</priority>
     <changefreq>monthly</changefreq>
     <lastmod>2017-06-25</lastmod>
