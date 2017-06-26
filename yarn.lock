@@ -120,9 +120,9 @@ loose-envify@^1.0.0, loose-envify@^1.1.0:
   dependencies:
     js-tokens "^3.0.0"
 
-material-design-icons@^2.2.3:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/material-design-icons/-/material-design-icons-2.2.3.tgz#b6817364a7803b0509a8002305b7fe201b0fda9f"
+mdi@^1.9.33:
+  version "1.9.33"
+  resolved "https://registry.yarnpkg.com/mdi/-/mdi-1.9.33.tgz#3caf6d95fc6b800633630bd62ba0cf1fbde6b2e2"
 
 moment@^2.14.1:
   version "2.18.1"

@@ -1,0 +1,49 @@
+.case_studies {
+  padding-top: 2em;
+  .card {
+    p {
+      padding-bottom: 1em;
+    }
+  }
+  .card-title {
+    color: #FFFFFF;
+  }
+  .card-content {
+    .card-subheader {
+      height: 4em;
+    }
+    .material-placeholder {
+      height: 20em;
+      margin: auto;
+    }
+  }
+  .cornerstone-card {
+    background-color: #28324E;
+  }
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .engineersandinspectors-card {
+    background-color: #FFFFFF;
+    color: #3D6B99;
+    .card-title {
+      color: rgba(0, 0, 0, 0.87);
+    }
+  }
+  .savvyshots-card {
+    background-color: #474973;
+  }
+  .back-button {
+    background-color: $logocolor;
+  }
+}

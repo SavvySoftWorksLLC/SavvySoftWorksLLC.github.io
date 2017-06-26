@@ -18,7 +18,7 @@
   "homepage": "https://github.com/garyanewsome/savvysoftworks_middleman#readme",
   "dependencies": {
     "cornerstone-event-components": "git+ssh://git@github.com:SavvySoftWorksLLC/body-snatchers.git",
-    "material-design-icons": "^2.2.3",
+    "mdi": "^1.9.33",
     "moment": "^2.14.1"
   },
   "devDependencies": {}

@@ -1,12 +1,5 @@
 @charset "UTF-8";
 
-@import url(https://fonts.googleapis.com/css?family=Audiowide);
-@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
-@import url(https://fonts.googleapis.com/css?family=Quicksand);
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-@import url(https://fonts.googleapis.com/css?family=Eagle+Lake);
-
 // Mixins
 // @import "components/prefixer";
 @import "materialize/components/mixins";
@@ -46,50 +39,6 @@
 @import "materialize/components/date_picker/default.date";
 @import "materialize/components/date_picker/default.time";
 
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../assets/material-design-icons/iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
-  src: local('Material Icons'),
-       local('../assets/material-design-icons/iconfont/MaterialIcons-Regular'),
-       url(../assets/material-design-icons/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
-       url(../assets/material-design-icons/iconfont/MaterialIcons-Regular.woff) format('woff'),
-       url(../assets/material-design-icons/iconfont/MaterialIcons-Regular.ttf) format('truetype');
-}
-
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
-
-  &.md-18{font-size: 18px;}
-  &.md-24{font-size: 24px;}
-  &.md-36{font-size: 36px;}
-  &.md-48{font-size: 48px;}
-}
-
 $body: #F5F5F5;
 $maintext: #000078;
 $logocolor: #418BC4;
@@ -101,6 +50,8 @@ $accent: #07416E;   // darker blue
 $faded: #868785;    // grayish color
 $dark: #161614;     // almost black
 $light: $body;      // off-white
+
+@import "case_studies";
 
 .justify { text-align: justify; }
 
