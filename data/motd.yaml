@@ -1,7 +1,7 @@
 these_motd:
-  - quote: "Interesting things to be said."
+  - quote: "Interesting things to be said?"
     color: "#418BC4"
   - quote: "NEAT!"
     color: "#C49241"
-  - quote: "Thiungs about things."
+  - quote: "Things about things."
     color: "#C45141"
