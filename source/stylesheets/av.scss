@@ -1,0 +1,48 @@
+.av {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2em;
+  color: #FFFFFF;
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Aclonica', sans-serif;
+  }
+  .av--about {
+    color: #000000;
+    .motd--quote {
+      padding: 1em;
+      border-radius: 10px;
+    }
+  }
+  .av-box {
+    min-height: 560px;
+  }
+  .audiophiles {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #C49241;
+    box-shadow: inset 0px 0px 15px #333333;
+  }
+  .video {
+    padding: 1em;
+    background-color: #C45141;
+    box-shadow: inset 0px 0px 15px #333333; 
+  }
+  .auto-resizable-iframe {
+    max-width: 420px;
+    margin: 0px auto;
+  }
+
+  .auto-resizable-iframe > div {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0px;
+  }
+
+  .auto-resizable-iframe iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+  }
+}
