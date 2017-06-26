@@ -1,7 +1,5 @@
 these_motd:
-  - quote: "Interesting things to be said?"
-    color: "#418BC4"
-  - quote: "NEAT!"
+  - quote: <a href="https://www.youtube.com/watch?v=haj4wQJAC1c">Next Live Lets Code! with Phalcon PHP JUL 01 5:00 PM EST</a>
     color: "#C49241"
-  - quote: "Things about things."
-    color: "#C45141"
+  - quote: "New SavvyAudiofiles coming soon"
+    color: "#418BC4"
