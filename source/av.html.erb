@@ -1,0 +1,75 @@
+---
+layout: av
+---
+<div class="av">
+  <div class="row">
+    <div class="col s12 m5">
+      <img src="/images/SavvyAudioVisual.svg" alt="Savvy Audio Visual" style="max-height: 480px" class="resonsive-img"/>
+    </div>
+    <div class="col s12 m7">
+      <div class="av--about">
+        <div class="row">
+          <div class="motd right">
+            <h5 class="ah-headline">
+              <span></span>
+              <span class="ah-words-wrapper">
+                <% first = true %>
+                <% data.motd.these_motd.each do |motd| %>
+                  <% if first %>
+                    <b class="motd--quote is-visible" style="background-color:<%= motd.color %>;"><%= motd.quote %></b>
+                    <% first = false %>
+                  <% else %>
+                    <b class="motd--quote" style="background-color:<%= motd.color %>;"><%= motd.quote %></b>
+                  <% end %>
+                <% end %>
+              </span>
+            </h5>       
+          </div>
+        </div>
+        <div class="row">
+          <h2 class="center">
+            <img src="/images/av/Paul.png" alt="Paul Scarrone" class="responsive-img" style="max-height:240px" />
+            <img src="/images/av/Gary.png" alt="Gary Newsome" class="responsive-img" style="max-height:240px" />
+          </h2>
+        </div>
+        <div class="row">
+          <p>
+            Paul Scarrone and Gary Newsome of SavvySoftWorks are both big proponents of learning and helping one another in the development world. Here they share conversations, interviews, and tutorials on vaious development topics.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">  
+    <div class="col s12 m6">
+      <div class=" av-box audiophiles">
+        <!-- <img src="/images/SavvyAudiophiles.svg" alt="SavvyAudiophiles" /> -->
+        <h3 class="center">SavvyAudiophiles</h3>
+        <h2 class="center">
+          <img src="/images/av/paul2.jpg" alt="Paul Scarrone" class="responsive-img" style="max-height:240px" />
+        </h2>
+        <h5 class="center">How do I get started in programming.</h5>
+        <h2 class="center">
+          <audio controls>
+            <source src="" type="audio/ogg">
+            <source src="" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+        </h2>
+      </div>
+    </div>
+    <div class="col s12 m6">
+      <div class="av-box video">
+        <h3 class="center">Paul's YouTube Title</h3>
+        <div class="auto-resizable-iframe">
+          <div>
+            <iframe src="https://www.youtube.com/embed/-dCB3pCn_WM" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <h5 class="center">Lets Code!<br>Phalcon PHP, FullCalendar.io, and Google API (Part 2)</h5>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
