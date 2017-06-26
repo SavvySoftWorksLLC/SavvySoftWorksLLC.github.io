@@ -11,10 +11,14 @@
     .motd--quote {
       padding: 1em;
       border-radius: 10px;
+      color: #FFFFFF;
+      a {
+        color: $body;
+      }
     }
   }
   .av-box {
-    min-height: 576px;
+    min-height: 640px;
   }
   .audiophiles {
     margin-bottom: 2em;
