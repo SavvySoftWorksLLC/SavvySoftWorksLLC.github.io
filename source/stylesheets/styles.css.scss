@@ -271,7 +271,7 @@ footer {
 .returntotop {
     position: fixed;
     background-color: $logocolor;
-    //width: 100%;
+    z-index: 99;
 }
 
 .returntotop:hover, .submit:hover {
