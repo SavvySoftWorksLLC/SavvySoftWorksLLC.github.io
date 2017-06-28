@@ -144,8 +144,6 @@ $light: $body;      // off-white
   color: lighten($light, 20);
 }
 
-
-
 .blog, .current_clients {
   h4 {
     margin-bottom: 3px;
@@ -449,6 +447,6 @@ footer {
 .close-icon {
   color: $faded;
   position: absolute;
-  top: -15px;
-  right: 5px;
+  top: -10px;
+  right: 10px;
 }
