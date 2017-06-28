@@ -12489,6 +12489,12 @@ footer {
   color: #418BC4; }
 #contact .btn .material-icons, #contact .btn-large .material-icons {
   color: #F5F5F5; }
+
+.close-icon {
+  color: #868785;
+  position: absolute;
+  top: -10px;
+  right: 10px; }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

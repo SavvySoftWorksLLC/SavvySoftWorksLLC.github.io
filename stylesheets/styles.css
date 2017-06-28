@@ -6483,3 +6483,9 @@ footer {
   color: #418BC4; }
 #contact .btn .material-icons, #contact .btn-large .material-icons {
   color: #F5F5F5; }
+
+.close-icon {
+  color: #868785;
+  position: absolute;
+  top: -10px;
+  right: 10px; }
