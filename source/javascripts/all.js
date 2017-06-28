@@ -6,6 +6,10 @@
 
 $(".button-collapse").sideNav();
 
+$(".close-icon").on("click", function(){
+  $(".button-collapse").sideNav("hide");
+});
+
 $(document).ready(function(){
 //  $('.slider').slider({full_width: true,
 //    interval: 2500
