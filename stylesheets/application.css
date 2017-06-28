@@ -12386,7 +12386,8 @@ footer {
 
 .returntotop {
   position: fixed;
-  background-color: #418BC4; }
+  background-color: #418BC4;
+  z-index: 99; }
 
 .returntotop:hover, .submit:hover {
   color: #F5F5F5;
