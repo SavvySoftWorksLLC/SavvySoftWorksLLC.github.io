@@ -6,6 +6,10 @@
 
 $(".button-collapse").sideNav();
 
+$(".close-icon").on("click", function(){
+  $(".button-collapse").sideNav("hide");
+});
+
 $(document).ready(function(){
 
   var ifExists = document.querySelector('#contact form')
