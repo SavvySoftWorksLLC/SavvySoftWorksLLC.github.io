@@ -6246,7 +6246,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .inverted-colors .blog {
     color: #e8e8e8; }
 
-.blog h4, .current_clients h4 {
+.blog h4, .current_clients h4, .products h4 {
   margin-bottom: 3px; }
 
 .has-shadow {
