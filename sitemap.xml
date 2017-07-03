@@ -114,6 +114,12 @@
     <changefreq>monthly</changefreq>
     <lastmod>2017-07-03</lastmod>
   </url>
+  <url>
+    <loc>https://savvysoftworks.com/westernpaphalcon.html</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2017-07-03</lastmod>
+  </url>
 <url>
   <loc>https://savvysoftworks.com#about)%></loc>
   <priority>0.7</priority>

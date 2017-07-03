@@ -1,0 +1,29 @@
+/* line 7, meetup.scss */
+.phalcon-body {
+  background-color: #445C6C;
+  color: #FFFFFF;
+  font-family: Lato, sans-serif;
+  font-size: 1.1em; }
+  /* line 12, meetup.scss */
+  .phalcon-body a {
+    color: #65D38D; }
+  /* line 13, meetup.scss */
+  .phalcon-body a:hover {
+    color: #8ddeaa; }
+  /* line 14, meetup.scss */
+  .phalcon-body p {
+    font-weight: 300; }
+  /* line 15, meetup.scss */
+  .phalcon-body .phalcon {
+    width: 80%;
+    margin: 0 auto; }
+  /* line 19, meetup.scss */
+  .phalcon-body .savvy {
+    padding: 1em 0 1em 0;
+    background-color: #F5F5F5;
+    color: #445C6C; }
+  /* line 24, meetup.scss */
+  .phalcon-body .laravel {
+    padding: 1em 0 1em 0;
+    background-color: #F5F5F5;
+    color: #FD503B; }

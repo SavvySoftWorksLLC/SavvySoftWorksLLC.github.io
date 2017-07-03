@@ -6387,51 +6387,6 @@ footer {
   color: #F5F5F5;
   background-color: #3270a0; }
 
-.rslides_tabs {
-  list-style: none;
-  padding: 0;
-  background: #000078;
-  font-size: 18px;
-  list-style: none;
-  margin: 0 auto 50px;
-  max-width: 540px;
-  padding: 10px 0;
-  text-align: center;
-  width: 100%;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
-
-.rslides_tabs li {
-  display: inline;
-  float: none;
-  margin-right: 1px; }
-
-.rslides_tabs a {
-  color: #F5F5F5;
-  width: auto;
-  line-height: 20px;
-  padding: 9px 20px;
-  height: auto;
-  background: transparent;
-  display: inline; }
-
-.rslides_tabs li:first-child {
-  margin-left: 0; }
-
-.rslides_tabs .rslides_here a {
-  background: #e8e8e8;
-  color: #000078;
-  font-weight: bold; }
-
-.caption {
-  color: #000078;
-  font-size: 2em;
-  text-align: center; }
-
-.slide_container {
-  width: 80%;
-  margin-top: 1em;
-  margin-bottom: 1em; }
-
 .blog article img {
   max-width: 100%; }
 
@@ -6446,21 +6401,6 @@ footer {
 @media only screen and (min-width: 601px) {
   .rightcol {
     padding-left: 2em; } }
-
-.laravel-body {
-  font-family: tahoma, sans-serif;
-  background-color: #FFFFFF;
-  color: #FD503B; }
-
-.laravel h1 {
-  font-family: raleway, tahoma, sans-serif;
-  text-align: center; }
-.laravel h3 {
-  text-transform: uppercase; }
-.laravel a {
-  color: #e91b02; }
-.laravel a:hover {
-  color: #418BC4; }
 
 .accent-text {
   color: #07416E; }
