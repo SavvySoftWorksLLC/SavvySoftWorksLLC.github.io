@@ -1,0 +1,29 @@
+$gray: #445C6C;
+$green: #65D38D;
+$white: #FFFFFF;
+
+$laravel: #FD503B;
+
+.phalcon-body {
+    background-color: $gray;
+    color: $white;
+    font-family: Lato, sans-serif;
+    font-size: 1.1em;
+    a { color: $green; }
+    a:hover { color: lighten($green, 10%) }
+    p { font-weight: 300; }
+  .phalcon {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .savvy {
+    padding: 1em 0 1em 0;
+    background-color: #F5F5F5;
+    color: $gray;
+  }
+  .laravel {
+    padding: 1em 0 1em 0;
+    background-color: #F5F5F5;
+    color: $laravel;
+  }
+}

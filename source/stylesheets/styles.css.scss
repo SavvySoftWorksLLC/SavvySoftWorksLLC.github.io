@@ -42,7 +42,6 @@
 $body: #F5F5F5;
 $maintext: #000078;
 $logocolor: #418BC4;
-$laravel: #FD503B;
 
 // Sam's color set built off of Gary's ^^
 $main: $logocolor;  // curious blue
@@ -352,28 +351,6 @@ footer {
 .rightcol {
   @media #{$medium-and-up} {
     padding-left: 2em;
-  }
-}
-
-.laravel-body {
-  font-family: tahoma, sans-serif;
-  background-color: #FFFFFF;
-  color: $laravel;
-}
-
-.laravel {
-  h1 {
-    font-family: raleway, tahoma, sans-serif;
-    text-align: center;
-  }
-  h3 {
-    text-transform: uppercase;
-  }
-  a {
-    color: darken($laravel, 15%)
-  }
-  a:hover {
-    color: $logocolor;
   }
 }
 
