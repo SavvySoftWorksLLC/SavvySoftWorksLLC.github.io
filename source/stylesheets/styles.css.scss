@@ -58,6 +58,14 @@ $light: $body;      // off-white
   background-color: $light;
   .section-title { color: $main; }
   .blog_title, a, a:visited { color: $main; }
+  .blog_archive {
+    .row .col {
+      padding: unset;
+    }
+    .article {
+      margin-bottom: 10px;
+    }
+  }
   a:hover { color: $accent; }
   p {
     a { color: $accent; }
@@ -101,7 +109,7 @@ $light: $body;      // off-white
   color: lighten($light, 20);
 }
 
-
+.blog-contents { padding: 0 1em 0 1em; }
 
 .blog, .current_clients, .products {
   h4 {
