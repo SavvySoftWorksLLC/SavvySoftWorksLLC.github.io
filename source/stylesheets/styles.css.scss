@@ -109,7 +109,7 @@ $light: $body;      // off-white
   color: lighten($light, 20);
 }
 
-
+.blog-contents { padding: 0 1em 0 1em; }
 
 .blog, .current_clients, .products {
   h4 {
