@@ -12204,6 +12204,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     color: #418BC4; }
   .main-colors .blog_title, .main-colors a, .main-colors a:visited {
     color: #418BC4; }
+  .main-colors .blog_archive .row .col {
+    padding: unset; }
+  .main-colors .blog_archive .article {
+    margin-bottom: 10px; }
   .main-colors a:hover {
     color: #07416E; }
   .main-colors p a {
@@ -12251,6 +12255,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
       color: #F5F5F5; }
   .inverted-colors .blog {
     color: #e8e8e8; }
+
+.blog-contents {
+  padding: 0 1em 0 1em; }
 
 .blog h4, .current_clients h4, .products h4 {
   margin-bottom: 3px; }
