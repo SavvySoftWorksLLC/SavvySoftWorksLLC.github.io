@@ -4,10 +4,18 @@
   <meta name="description" content="Custom software, solutions, web apps, and web pages. Growing your development team and solving problems. Contact SavvySoftWorks today!">
   <meta name="keywords" content="SavvySoftWorks, Paul Scarrone, software, web, applications, apps, websites, webpages, problem, solving, solutions, custom, growth, education, development, programming, Ruby, Rails, Laravel, JavaScript, AngularJS, ReactJS, Node">
   <title>SavvySoftWorks</title>
+  
+  <% images = [
+    "http://savvysoftworks.com/images/parallax/web__SavvySoftWorks_Parallax-1g.jpg" ,
+    "http://savvysoftworks.com/images/parallax/web__SavvySoftWorks_Parallax-4g.jpg" ,
+    "http://savvysoftworks.com/images/parallax/Sam&Savvy_01b.jpg" ,
+    "http://savvysoftworks.com/images/parallax/web__SavvySoftWorks_Parallax-5g.jpg" 
+  ] %>
+  
   <meta property="og:title" content="SavvySoftWorks, LLC" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://savvysoftworks.com/" />
-  <meta property="og:image" content="http://savvysoftworks.com/images/parallax/web__SavvySoftWorks_Parallax-1.jpg" />
+  <meta property="og:image" content="<%= images.sample %>" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:description" content="Building reliable software and expert development teams" />
   <meta name="twitter:title" content="SavvySoftWorks, LLC" />
