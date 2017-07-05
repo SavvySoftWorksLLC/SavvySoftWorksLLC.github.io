@@ -95,6 +95,11 @@ $light: $body;      // off-white
   }
 }
 
+.expandable-toggle.read-more {
+  color: $main;
+  cursor: pointer;
+}
+
 .inverted-colors {
   h4 { color: lighten($main, 20); }
   a, a:visited { color: lighten($faded, 20); }
