@@ -12238,6 +12238,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     .main-colors .see-more a:hover {
       color: #07416E; }
 
+.expandable-toggle.read-more {
+  color: #418BC4;
+  cursor: pointer; }
+
 .inverted-colors {
   background-color: #07416E;
   color: white; }
@@ -12443,6 +12447,12 @@ footer {
   position: absolute;
   top: -10px;
   right: 10px; }
+
+.expandable-toggle {
+  color: #07416E; }
+
+.expandable {
+  display: none; }
 .phalcon-body {
   background-color: #445C6C;
   color: #FFFFFF;
