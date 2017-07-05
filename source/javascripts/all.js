@@ -10,6 +10,20 @@ $(".close-icon").on("click", function(){
   $(".button-collapse").sideNav("hide");
 });
 
+$(".expandable-toggle").on("click", function(){
+  $display = $(this).next().css('display');
+  if($display == 'block') {
+    $(".expandable-toggle").next().css('display','none');
+    $(".drop-down-arrow").css('transform', 'rotate(0deg)');
+    $(".drop-down-arrow").css('transition', 'transform .5s');
+  }
+  else if($display == 'none'){
+    $(".expandable-toggle").next().css('display','block');
+    $(".drop-down-arrow").css('transform', 'rotate(-180deg)');
+    $(".drop-down-arrow").css('transition', 'transform .5s');
+  };
+});
+
 $(document).ready(function(){
 
   var ifExists = document.querySelector('#contact form')
