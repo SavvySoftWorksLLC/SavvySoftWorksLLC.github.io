@@ -3,8 +3,12 @@
 <desc>Created using Figma</desc>
 <g id="Canvas" transform="translate(391 290)">
 <g id="SavvyAudioVisual_Mobile" filter="url(#filter0_i)">
-<use xlink:href="#path0_fill" transform="translate(-394 -289)" fill="#BE2C17"/>
-<use xlink:href="#path1_fill" transform="translate(-394 -289)" fill="#F29F1A"/>
+<a xlink:href="#video">
+  <use xlink:href="#path0_fill" transform="translate(-394 -289)" fill="#BE2C17"/>
+</a>
+<a xlink:href="#audio">
+  <use xlink:href="#path1_fill" transform="translate(-394 -289)" fill="#F29F1A"/>
+</a>
 <use xlink:href="#path2_fill" transform="translate(-394 -289)" fill="#418BC4"/>
 </g>
 </g>

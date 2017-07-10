@@ -16,12 +16,16 @@
 </g>
 <g id="Visual">
 <g id="Visual" filter="url(#filter3_i)">
-<use xlink:href="#path3_fill" transform="translate(-286 286)" fill="#BE2C17"/>
+  <a xlink:href="#video">
+    <use xlink:href="#path3_fill" transform="translate(-286 286)" fill="#BE2C17"/>
+  </a>
 </g>
 </g>
 <g id="Audio">
 <g id="Audio" filter="url(#filter4_i)">
-<use xlink:href="#path4_fill" transform="translate(-286 161)" fill="#F29F1A"/>
+  <a xlink:href="#audio">
+    <use xlink:href="#path4_fill" transform="translate(-286 161)" fill="#F29F1A"/>
+  </a>
 </g>
 </g>
 </g>
