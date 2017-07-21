@@ -3,25 +3,31 @@ layout: av
 ---
 <div class="av">
   <div class="row av--header">
-    <div class="col s12 m6">
-      <h1>
-        <img src="/images/av/SavvyAudioVisual_Desktop.svg" alt="Savvy Audio Visual" class="responsive-img hide-on-med-and-down"/>
-        <img src="/images/av/SavvyAudioVisual_Mobile.svg" alt="Savvy Audio Visual" class="responsive-img hide-on-large-only"/>
-      </h1>
-    </div>
-    <div class="col s12 m6">
-      <div class="motd hide-on-med-and-down">
-        <h5 class="ah-headline">
-          <div class="ah-words-wrapper">
-            <% motds = data.motd.these_motd.dup %>
-            <% motd = motds.slice!(0) %>
-            <b class="motd--quote is-visible" style="background-color:<%= motd.color %>;"><%= motd.quote %></b>
-            <% motds.each do |motd| %>
-              <b class="motd--quote" style="background-color:<%= motd.color %>;"><%= motd.quote %></b>
-            <% end %>
-          </div>
-        </h5>
+    <div class="col s12 l5">
+      <!-- <img src="/images/av/SavvyAudioVisual_Desktop.svg" alt="Savvy Audio Visual" class="responsive-img hide-on-med-and-down" style="max-height:400px;"/> -->
+      <img src="/images/av/SavvyAudioVisual_Mobile.svg" alt="Savvy Audio Visual" class="responsive-img hide-on-large-only"/>
+      
+      <div class="responsive-img hide-on-med-and-down">
+        <%= partial '/av/av_desktop' %>
       </div>
+    </div>
+
+    <div class="col s12 l7">
+      <div class="row">
+        <div class="motd left hide-on-med-and-down">
+          <h5 class="ah-headline">
+            <div class="ah-words-wrapper">
+              <% motds = data.motd.these_motd.dup %>
+              <% motd = motds.slice!(0) %>
+              <b class="motd--quote is-visible" style="background-color:<%= motd.color %>;"><%= motd.quote %></b>
+              <% motds.each do |motd| %>
+                <b class="motd--quote" style="background-color:<%= motd.color %>;"><%= motd.quote %></b>
+              <% end %>
+            </div>
+          </h5>
+        </div>
+      </div>
+      
       <div class="av--about">
         <div class="row">
           <p>
@@ -35,46 +41,67 @@ layout: av
     </div>
   </div>
 
-  <div id="audio" class="row">
-    <div class="col s12">
-      <div class=" av--box audiophiles">
-        <!-- <img src="/images/SavvyAudiophiles.svg" alt="SavvyAudiophiles" /> -->
-        <h5 class="">SavvyAudiophiles</h5>
-        <div class="row valign-wrapper">
-          <div class="col s12 m3">
-            <img src="/images/av/paul2.jpg" alt="Paul Scarrone" class="responsive-img av--image" style="max-height:240px" />
+  <div class="parallax-container hide-on-small-only">
+      <div class="parallax"><img class="responsive-img" src="/images/av/IMG_1898.jpg"></div>
+  </div>
+
+  <div class="has-shadow row col s12">
+    <div id="audio" class="row">
+      <div class="col s12">
+        <div class="av--box audiophiles">
+          <!-- <img src="/images/SavvyAudiophiles.svg" alt="SavvyAudiophiles" /> -->
+          <h5>
+            <a href="/av/audiophiles.html">SavvyAudiophiles</a>
+            <i class="material-icons tiny">link</i>
+          </h5>
+          <div class="row valign-wrapper">
+            <div class="col s12 m3">
+              <img src="/images/av/paul2.jpg" alt="Paul Scarrone" class="responsive-img av--image hide-on-small-only" style="max-height:240px" />
+            </div>
+            <div class="col s12 m9">
+              <h5>Paul Scarrone</h5>
+              <h5 class="">How do I get started in programming?</h5>
+              <audio controls>
+                <source src="/audio/SavvyAudiophiles_HowDoIGetStarted.ogg" type="audio/ogg">
+                <source src="/audio/SavvyAudiophiles_HowDoIGetStarted.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
           </div>
-          <div class="col s12 m9">
-        <h5 class="">How do I get started in programming?</h5>
-        <h2 class="">
-          <audio controls>
-            <source src="/audio/SavvyAudiophiles_HowDoIGetStarted.ogg" type="audio/ogg">
-            <source src="/audio/SavvyAudiophiles_HowDoIGetStarted.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-          </audio>
-        </h2>
+        </div>
       </div>
     </div>
   </div>
+
+  <div class="parallax-container hide-on-small-only">
+      <div class="parallax"><img class="responsive-img" src="/images/av/IMG_1898.jpg"></div>
+  </div>
+    
   <div id="video" class="row">
     <div class="col s12">
       <div class="av--box video">
-        <h5 class="">Confessions of a Software Developer</h5>
+        <h5>
+          <a href="/av/video.html">SavvyVideo</a>
+          <i class="material-icons tiny">link</i>
+        </h5>
         <div class="row valign-wrapper">
-          <div class="col s12 m4">
+          <div class="col s12 m4 hide-on-small-only">
             <a href="https://www.youtube.com/watch?v=haj4wQJAC1c" target="_blank">
               <img src="https://img.youtube.com/vi/haj4wQJAC1c/hqdefault.jpg" class="responsive-img av--image">
             </a>
           </div>
           <div class="col s12 m8">
-            <h5 class="">Lets Code! with Phalcon CoreTeam member Nikolaos(niden)<br>FullCalendar.io and Google API (Part 3)</h5>
+            <h5>Confessions of a Software Developer</h5>
+            <h5 class="">Lets Code!<br>with Phalcon CoreTeam member Nikolaos(niden)<br>FullCalendar.io and Google API (Part 3)</h5>
+            <p class=""><a href="https://www.youtube.com/user/ninjapanzer/videos" target="_blank" style="color:#FFFFFF;">Click here to see more of Paul's videos.</a></p>
           </div>
-        </div>
-        <div class="row">
-          <p class=""><a href="https://www.youtube.com/user/ninjapanzer/videos" target="_blank" style="color:#FFFFFF;">Click here to see more of Paul's videos.</a></p>
         </div>
       </div>
     </div>
   </div>
-</div>
 
+  <div class="parallax-container hide-on-small-only">
+      <div class="parallax"><img class="responsive-img" src="/images/av/IMG_1898.jpg"></div>
+  </div>
+
+</div>

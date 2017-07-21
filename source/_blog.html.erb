@@ -8,7 +8,7 @@
       </a>
     </p>
     <div class="row">
-      <% blog.articles[0...1].each do |article| %>
+      <% blog('blog').articles[0...1].each do |article| %>
         <article class="col s12" style="padding-right: 2em;">
           <h4>
             <%= article.title %>
