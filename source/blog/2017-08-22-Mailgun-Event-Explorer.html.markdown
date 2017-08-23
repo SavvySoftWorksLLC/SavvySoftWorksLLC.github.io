@@ -6,11 +6,11 @@ category: development
 tags: php, mailgun, webpack
 ---
 
-Sometimes you find yourself in a situation where your work and your side projects find overlap. I found myself in this situation recently with client work and my work on the Phalcon framework.
+Sometimes you find yourself in a situation where your work and your side projects finally overlap. I found myself in this situation recently with client work and my work on the [Phalcon framework](https://phalconphp.com/).
 
-I created the Mailgun Event Explorer for a couple of reasons. Mainly to solve the problem of needing to read the logs while not having access to the Mailgun console. I had access to the API key, but only the administrators, who live in a timezone, had access to the Mailgun console. This generally was creating difficulty for the development team, and leaving the logs under watched, as those with access have other work as well.
+I created the Mailgun Event Explorer for a couple of reasons. Mainly to solve the problem of needing to read the logs while not having access to the Mailgun console. I had access to the API key, but only the administrators, who live in a time zone, had access to the Mailgun console. This generally was creating difficulty for the development team, and leaving the logs under watched, as those with access have other work as well.
 
-So I sat down and created my own viewer. This allows you to see top level info, such as the ID, Email, whether it was Rejected or Failed, and the reason. It does this without the clutter of extra fields or the hassle of reading JSON. Perhaps more importanlty, it improves upon the existing pagination system Mailgun had in place. Making the data easier and quicker to navigate.
+So I sat down and created my own viewer. This allows you to see top level info, such as the ID, Email, whether it was Rejected or Failed, and the reason. It does this without the clutter of extra fields or the hassle of reading JSON. Perhaps more importantly, it improves upon the existing pagination system Mailgun had in place. Making the data easier and quicker to navigate.
 
 Lastly, this allows for a little experimentation for some up coming videos I am planning on doing&#8230; Combining Webpack and Phalcon for building applications with rich clients.
 
@@ -48,4 +48,4 @@ There are two reasons for this project:
 7. $`open http://localhost:8000`
 
 #### About
-This project is in preparation for a series of tutorial videos combining Webpack and Phalcon for building application with rich clients.
+This project is in preparation for a series of tutorial videos combining Webpack and Phalcon for building applications with rich clients.
