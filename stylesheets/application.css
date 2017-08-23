@@ -12195,6 +12195,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .case_studies .back-button {
     background-color: #418BC4; }
 
+.savadoro .release-announcement {
+  margin-top: 2em; }
+.savadoro .release-list {
+  padding-top: 2em;
+  font-weight: bold; }
+
 .justify {
   text-align: justify; }
 

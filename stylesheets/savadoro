@@ -1,0 +1,7 @@
+/* line 5, savadoro.scss */
+.savadoro .release-announcement {
+  margin-top: 2em; }
+/* line 8, savadoro.scss */
+.savadoro .release-list {
+  padding-top: 2em;
+  font-weight: bold; }
