@@ -26,4 +26,8 @@ $laravel: #FD503B;
     background-color: #F5F5F5;
     color: $laravel;
   }
+  .carousel-item {
+    width: 480px;
+    padding-top:4em;
+  }
 }
