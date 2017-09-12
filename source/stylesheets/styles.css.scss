@@ -55,6 +55,10 @@ $light: $body;      // off-white
 
 .justify { text-align: justify; }
 
+b, strong {
+  font-weight: bold;
+}
+
 .main-colors {
   background-color: $light;
   .section-title { color: $main; }
@@ -77,6 +81,12 @@ $light: $body;      // off-white
     .return_link { color: $dark; }
     .blog_title a { color: $main;}
     .blog_desc { color: $faded; }
+    ul {
+      margin-left: 20px;
+    }
+    li {
+      list-style-type: circle;
+    }
   }
   .icon-row { margin: 0; }
   .icon-block {

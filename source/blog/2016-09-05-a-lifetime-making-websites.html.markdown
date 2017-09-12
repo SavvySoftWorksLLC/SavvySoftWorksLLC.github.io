@@ -6,13 +6,14 @@ category: development
 tags: web development, life, business
 ---
 Recently twitter had a hashtag inviting use to describe of our first 7 jobs. It was a lot of fun to see how my peers had started their lives. Mine went a little something like this:
-1. Food worker at an Amusement Park
-2. Gas station attendant
-3. Box boy at a supermarket
-4. Box boy at a dollar store
-5. Tutor/Educational Support Tech
-6. Web Developer at a Small Consultancy
-7. Software Developer at a Product Company
+
+* Food worker at an Amusement Park
+* Gas station attendant
+* Box boy at a supermarket
+* Box boy at a dollar store
+* Tutor/Educational Support Tech
+* Web Developer at a Small Consultancy
+* Software Developer at a Product Company
 
 To a casual observer it appears that at some point I started working in tech and then it escalated rapidly. What if I told you that #5 happened during college you might conclude that college was the impetus for my future success. The thing this list doesn't describe is that during jobs 1-5 I was programming in my off hours, we grow up to be the sum of experiences. Every great developer I have ever met has been writing code and building things before anyone paid them to do so. That is why the tech industry respects passion just as much as it respect education. That doesn't make Tech special. You can have passion for selling cars, an oft maligned profession, which is probably a better indicator of success than that of a MBA.
 
