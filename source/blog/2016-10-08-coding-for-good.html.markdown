@@ -7,7 +7,7 @@ tags: software, morality, social-impact
 ---
 
 Recently, I was listening to the [Ruby Rogues Podcast Episode 278](https://devchat.tv/ruby-rogues/278-rr-consequences-of-an-insightful-algorithm-with-carina-c-zona)
-and learning about a talk that Carina C Zona gave at Ruby Conf 2015 entitled __Consequences of an Insightful Algorithm__ which drew me back to my college days at Saint Vincent College, in lovely Latrobe, Pennsylvania, a Catholic college whose Computer Science Department was lead by a Benedictine monk. If you are unfamiliar with the Benedictine tradition consider a highly academic, philosophical, and ethically focused group of men who, like the Franciscans, had taken a vow of poverty.
+and learning about a talk that Carina C Zona gave at Ruby Conf 2015 entitled **Consequences of an Insightful Algorithm** which drew me back to my college days at Saint Vincent College, in lovely Latrobe, Pennsylvania, a Catholic college whose Computer Science Department was lead by a Benedictine monk. If you are unfamiliar with the Benedictine tradition consider a highly academic, philosophical, and ethically focused group of men who, like the Franciscans, had taken a vow of poverty.
 
 It was through this focus on ethics that a constant discussion across all classes was that of software ethics. How we each can impact the world with the power that this new science of Computer Science could hold. Since that time I have concerned myself with business ethics and general morality as the guideposts for my actions. The positive social impact of software seemed self-evident in my involvement with the Open Source Software movement. I was building things that would help others and thus it was good.
 

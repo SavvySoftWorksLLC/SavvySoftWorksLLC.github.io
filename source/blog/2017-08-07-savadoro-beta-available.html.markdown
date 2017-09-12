@@ -18,7 +18,7 @@ The timer itself is free for you to try, and is available for download on GitHub
 
 Let us know what you think!
 
-__To note:__
+**To note:**
 
 On Windows, Savadoro installs correctly, but does not create a Start Menu item. You can find it via search and create your own desktop shortcut.
 
