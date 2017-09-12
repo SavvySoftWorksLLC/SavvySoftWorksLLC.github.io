@@ -55,7 +55,7 @@ $light: $body;      // off-white
 
 .justify { text-align: justify; }
 
-b, strong {
+strong, b {
   font-weight: bold;
 }
 
@@ -84,7 +84,7 @@ b, strong {
     ul {
       margin-left: 20px;
     }
-    li {
+    ul li {
       list-style-type: circle;
     }
   }
