@@ -22,14 +22,14 @@ If you have all of the money or you work in a large enterprise that doesn't have
 
 For the rest of us I have two words: <b>Static Website</b>. What you may not have realized is that most websites don't need a login section or a forum. These days I can host a static site from $5/mo to free and take a fraction of the time to build. It seems like a very 1990s solution but I promise you the way that we consume the web today is far more conducive to simple static websites than you might think. Let's list out the needs you might have:
 
-- &#10003; Blog/News
-- &#10003; Contact Information
-- &#10003; Store Hours
-- &#10003; About / Product Pages
+- Blog/News
+- Contact Information
+- Store Hours
+- About / Product Pages
 
 The blog may appear more complicated but in reality each blog post is just its own page. If your developer is using something clever like <b>[Middleman](https://middlemanapp.com)</b> then deploying a new blog post can take a little as 15 minutes.
 
-The HTML5 semantic elements have made short work of the rest of our requirements. 
+The HTML5 semantic elements have made short work of the rest of our requirements.
 
 - <b>&lt;tel&gt;</b> has taken care of how we share phone numbers
 - The <b>mailto:</b> protocol is a very safe alternative to a contact form
