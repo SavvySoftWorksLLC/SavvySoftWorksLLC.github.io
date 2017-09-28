@@ -45170,11 +45170,13 @@ $(".expandable-toggle").on("click", function(){
   $display = $(this).next().css('display');
   if($display == 'block') {
     $(".expandable-toggle").next().css('display','none');
+    $('.expandable-text').text('Read More');
     $(".drop-down-arrow").css('transform', 'rotate(0deg)');
     $(".drop-down-arrow").css('transition', 'transform .5s');
   }
   else if($display == 'none'){
     $(".expandable-toggle").next().css('display','block');
+    $('.expandable-text').text('Read Less');
     $(".drop-down-arrow").css('transform', 'rotate(-180deg)');
     $(".drop-down-arrow").css('transition', 'transform .5s');
   };
