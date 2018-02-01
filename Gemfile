@@ -16,6 +16,8 @@ gem 'middleman-gh-pages'
 gem 'middleman-blog'
 gem 'nokogiri'
 
+gem 'builder', '~> 2.0'
+
 gem 'middleman-sprockets', '~> 4.0.0'
 gem 'materialize-sass'
 gem 'middleman-jquery'

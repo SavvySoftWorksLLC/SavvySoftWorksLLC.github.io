@@ -3,6 +3,7 @@ activate :sprockets do |c|
 end
 
 activate :blog do |blog|
+  blog.name = 'blog'
   blog.prefix = 'blog'
   blog.layout = 'blog'
   blog.sources = "{year}-{month}-{day}-{title}.html"
@@ -10,6 +11,14 @@ activate :blog do |blog|
   # blog.paginate = true
   # blog.per_page = 2
   # blog.page_link = "page/:num"
+end
+
+activate :blog do |blog|
+  blog.name = 'audiophiles'
+  blog.prefix = 'audiophiles'
+  blog.layout = 'audiophiles'
+  blog.sources = "{year}-{month}-{day}-{title}.html"
+  blog.permalink = "{category}/{title}.html"
 end
 
 ###

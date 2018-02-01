@@ -1,0 +1,52 @@
+$audio: #F29F1A;
+$video: #BE2C17;
+
+.av {
+  color: $body;
+  h1, h2, h3, h4, h5, h6 { font-family: 'Aclonica', sans-serif; }
+  a {
+    color: $body;
+    &:hover {
+      color: darken($body, 5%);
+    }
+  }
+  .av--header {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    .motd--quote {
+      padding: .5em 1em;
+      border-radius: 6px;
+      color: $body;
+    }
+  }
+  .av--about {
+    color: #000000;
+    font-size: 1.1em;
+  }
+
+  .av--box {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  .av--image {
+    border-radius: 6px;
+    box-shadow: inset 0px 0px 5px #333333;
+  }
+
+  #audio {
+    background-color: $audio;
+    box-shadow: inset 0px 0px 5px #333333;
+    margin-bottom: 0;
+  }
+  .audiophiles { }
+
+  #video {
+    background-color: $video;
+    box-shadow: inset 0px 0px 5px #333333;
+    margin-bottom: 0;
+  }
+  .video { }
+}
