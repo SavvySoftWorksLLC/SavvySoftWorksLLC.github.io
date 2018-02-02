@@ -1,5 +1,8 @@
 <div class="blog inverted-colors">
   <div class="container" id="blog">
+    <div class="row right-align">
+      <a href="/feed.xml", target="_blank"><i class="mdi mdi-rss mdi-24px"></i>&nbsp;RSS</a>
+    </div>
     <h4 class="section-title">Savvy Blog Latest Post</h4>
     <p class="see-more">
       <a href="/blog_archive.html">
@@ -14,6 +17,7 @@
             <%= article.title %>
           </h4>
           <time><%= article.date.strftime('%b %e %Y') %></time>
+          <p>by: <%= article.data.author %></p>
 
           <%= article.summary(500, '...') %>
 

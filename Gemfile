@@ -14,6 +14,8 @@ gem 'middleman-livereload'
 gem 'middleman-compass', '>= 4.0.0'
 gem 'middleman-gh-pages'
 gem 'middleman-blog'
+gem 'builder', '~> 3.2', '>= 3.2.3'
+
 gem 'nokogiri'
 
 gem 'middleman-sprockets', '~> 4.0.0'

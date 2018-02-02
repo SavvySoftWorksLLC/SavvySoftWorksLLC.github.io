@@ -3,6 +3,9 @@ title: SavvySoftWorks | Blog Archive
 <!-- pageable: true -->
 ---
 <div class="blog_container main-colors" id="blog">
+  <div class="row right-align" style="padding-top: 1em;">
+    <a href="/feed.xml", target="_blank"><i class="mdi mdi-rss mdi-24px"></i>&nbsp;RSS</a>
+  </div>
   <div class="row">
     <h3>Savvy Blog Archive</h3>
   </div>
@@ -10,7 +13,7 @@ title: SavvySoftWorks | Blog Archive
     <div class="row">
     <% blog.articles.each do |article| %>
       <article class="col s12 m6" style="padding-right: 2em; height:264px;">
-        <h5 class="blog_header center-align">
+        <h5 class="blog_header">
           <a href="<%= article.url %>"><%= article.title %></a>
         </h5>
         <div class="blog-contents">
