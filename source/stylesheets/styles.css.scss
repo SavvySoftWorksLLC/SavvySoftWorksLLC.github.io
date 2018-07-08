@@ -252,6 +252,7 @@ body {
 .clients {
   .client-heading {
     font-family: Oxygen, Ubuntu, Helvetica, sans-serif;
+    color: $faded;
   }
   .clients-bold {
     font-weight: 700;
@@ -267,6 +268,11 @@ body {
 }
 
 .team {
+  .team--container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .team--row { margin-bottom: 0; }
   p {
     font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif;
   }
