@@ -124,9 +124,9 @@ mdi@^1.9.33:
   version "1.9.33"
   resolved "https://registry.yarnpkg.com/mdi/-/mdi-1.9.33.tgz#3caf6d95fc6b800633630bd62ba0cf1fbde6b2e2"
 
-moment@^2.14.1:
-  version "2.18.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
+moment@^2.29.2:
+  version "2.29.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.2.tgz#00910c60b20843bcba52d37d58c628b47b1f20e4"
 
 node-fetch@^1.0.1:
   version "1.6.3"
