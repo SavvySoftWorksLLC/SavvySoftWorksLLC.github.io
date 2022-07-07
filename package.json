@@ -19,7 +19,7 @@
   "dependencies": {
     "cornerstone-event-components": "git+ssh://git@github.com:SavvySoftWorksLLC/body-snatchers.git",
     "mdi": "^1.9.33",
-    "moment": "^2.14.1"
+    "moment": "^2.29.4"
   },
   "devDependencies": {}
 }
